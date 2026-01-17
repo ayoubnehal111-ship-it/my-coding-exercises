@@ -1,0 +1,85 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             uniprot_Atha.fasta
+# target HMM database:             arf6_profile.hmm
+# per-seq hits tabular output:     scan_results.table
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AT1G30330.2  [L=77]
+Description: ARF6_ARATH
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    3.9e-62  192.6   0.9    4.3e-62  192.5   0.9    1.0  1  aligned_sequences  
+
+
+Domain annotation for each model (and alignments):
+>> aligned_sequences  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  192.5   0.9   4.3e-62   4.3e-62       1      77 []       1      77 []       1      77 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 192.5 bits;  conditional E-value: 4.3e-62
+  aligned_sequences  1 mrlssagfnpqphevtgekrvlnselwhacagplvslppvgsrvvyfpqghseqvaastnkevdahipnypslhpql 77
+                       mrlssagfnpqphevtgekrvlnselwhacagplvslppvgsrvvyfpqghseqvaastnkevdahipnypslhpql
+        AT1G30330.2  1 MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL 77
+                       9***************************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (77 residues searched)
+Target model(s):                           1  (77 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 7.03
+//
+Query:       AT1G30331.1  [L=77]
+Description: ARF6_LIKE
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    3.9e-62  192.6   0.9    4.3e-62  192.5   0.9    1.0  1  aligned_sequences  
+
+
+Domain annotation for each model (and alignments):
+>> aligned_sequences  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  192.5   0.9   4.3e-62   4.3e-62       1      77 []       1      77 []       1      77 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 192.5 bits;  conditional E-value: 4.3e-62
+  aligned_sequences  1 mrlssagfnpqphevtgekrvlnselwhacagplvslppvgsrvvyfpqghseqvaastnkevdahipnypslhpql 77
+                       mrlssagfnpqphevtgekrvlnselwhacagplvslppvgsrvvyfpqghseqvaastnkevdahipnypslhpql
+        AT1G30331.1  1 MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL 77
+                       9***************************************************************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (77 residues searched)
+Target model(s):                           1  (77 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 16.23
+//
+[ok]
