@@ -38,3 +38,7 @@ Sbjct  1  MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQG  50
 
 ## Exe4: Differences in Results
 The results in both searches are essentially the same because `blastx` translates the transcript into protein before searching. The main difference is that `blastp` is faster as it skips the translation step.
+## Exe 5: PSI-BLAST Profile Analysis
+I used PSI-BLAST with 3 iterations to create a Position-Specific Scoring Matrix (PSSM).
+- **File Content**: The `profile.out` file contains the PSSM for the ARF6 protein.
+- **Explanation**: This matrix provides a score for each of the 20 amino acids at every position in the query sequence. High scores indicate conserved positions, while low scores indicate positions that vary across homologs. This profile is more sensitive than a standard BLAST search because it captures the evolutionary "signature" of the protein family.
