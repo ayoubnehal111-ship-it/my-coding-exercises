@@ -1,3 +1,5 @@
+
+
 # Session 1: Annotation of coding sequences
 
 ## Exe1: Database Formatting
@@ -24,3 +26,15 @@ The `profile.out` file contains a PSSM (Position-Specific Scoring Matrix) that r
 I formatted the `uniprot_Atha.fasta` database using `makeblastdb`
 - **Number of sequences**: Approximately 16,000 sequences were formatted.
 - **Impact on E-value**: The E-value is proportional to the database size. As the number of sequences in the database increases, the E-value for any given alignment also increases because the probability of finding a match by chance is higher.
+## Exe2: Redirecting Output
+I redirected the output to separate files called `test.faa.blast` and `test.fna.blast` using the `-out` flag.
+
+## Exe3: Default Alignment Format
+The default alignment format is **Pairwise** (`outfmt 0`). 
+Example of pairwise alignment:
+Query  1  MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQG  50
+          MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQG
+Sbjct  1  MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQG  50
+
+## Exe4: Differences in Results
+The results in both searches are essentially the same because `blastx` translates the transcript into protein before searching. The main difference is that `blastp` is faster as it skips the translation step.
