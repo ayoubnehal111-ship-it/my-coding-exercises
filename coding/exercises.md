@@ -18,3 +18,9 @@ The default format is `outfmt 0` (pairwise alignment).
 
 ## Exe5: PSI-BLAST Profile
 The `profile.out` file contains a PSSM (Position-Specific Scoring Matrix) that reflects the conservation of amino acids at each position.
+# Session 1: Annotation of coding sequences
+
+## Exe1: Database Formatting
+I formatted the `uniprot_Atha.fasta` database using `makeblastdb`
+- **Number of sequences**: Approximately 16,000 sequences were formatted.
+- **Impact on E-value**: The E-value is proportional to the database size. As the number of sequences in the database increases, the E-value for any given alignment also increases because the probability of finding a match by chance is higher.
