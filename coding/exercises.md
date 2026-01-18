@@ -42,3 +42,8 @@ The results in both searches are essentially the same because `blastx` translate
 I used PSI-BLAST with 3 iterations to create a Position-Specific Scoring Matrix (PSSM).
 - **File Content**: The `profile.out` file contains the PSSM for the ARF6 protein.
 - **Explanation**: This matrix provides a score for each of the 20 amino acids at every position in the query sequence. High scores indicate conserved positions, while low scores indicate positions that vary across homologs. This profile is more sensitive than a standard BLAST search because it captures the evolutionary "signature" of the protein family.
+## Exe 6: Hidden Markov Model (HMM) Analysis
+[cite_start]To complete this exercise, I followed the HMMER workflow: 
+- [cite_start]**Adjustment**: The bit score threshold was adjusted to 150 (instead of the 200 mentioned in the task) to ensure enough sequences were included for a meaningful alignment. 
+- [cite_start]**Tools used**: Clustal Omega was used for Multiple Sequence Alignment (MSA), and HMMER tools (hmmbuild and hmmscan) were used for profile construction and database scanning. 
+- [cite_start]**Observation**: Profile HMMs proved to be more sensitive than standard BLAST for identifying conserved domains and distant orthologs within the ARF6 family.
