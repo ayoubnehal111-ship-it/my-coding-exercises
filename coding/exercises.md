@@ -71,3 +71,10 @@ I used the Taxonomy IDs to filter gene products for leaf development (GO:0048366
 - Arabidopsis thaliana (Taxon: 3702)
 - Prunus persica (Taxon: 3760)
 - Zea mays (Taxon: 4577)
+### Protein Comparison (ARF6 Orthologs)
+Searching for `A0A068LKP4`, `A0A097PR28`, and `A0A059Q6N8` reveals that they are orthologous proteins (ARF6) in different species (Peach, Arabidopsis, and Maize). They share core GO terms like DNA-binding and auxin response.
+
+### Leaf Development (GO:0048366)
+- **Arabidopsis thaliana (3702)**: [Kteb l-3adad] proteins.
+- **Prunus persica (3760)**: [Kteb l-3adad] proteins.
+- **Zea mays (4577)**: [Kteb l-3adad] proteins.
