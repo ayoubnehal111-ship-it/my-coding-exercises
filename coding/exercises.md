@@ -78,3 +78,16 @@ Searching for `A0A068LKP4`, `A0A097PR28`, and `A0A059Q6N8` reveals that they are
 - **Arabidopsis thaliana (3702)**: [Kteb l-3adad] proteins.
 - **Prunus persica (3760)**: [Kteb l-3adad] proteins.
 - **Zea mays (4577)**: [Kteb l-3adad] proteins.
+### Experimental Evidence Comparison (BP)
+I used the QuickGO statistics tool to compare experimentally supported Biological Process (BP) annotations.
+## Exe 10: 3D Structure Prediction with AlphaFold
+I modeled the structure of ARF6 (AT1G30330) using the AlphaFold Protein Structure Database (Entry: Q9ZTX8-2).
+
+### Model Quality and pLDDT Scores
+The prediction quality varies across the protein sequence:
+- **Average pLDDT**: 62 (Low)
+- **Very High Confidence (>90)**: 31.3% (Blue regions) - These correspond to the core functional domains.
+- **High Confidence (70-90)**: 12.3% (Light Blue regions).
+- **Low Confidence (<70)**: Combined 56.3% (Yellow/Orange regions) - These are likely the flexible linker regions.
+
+**Observation**: Although the average score is low, the key domains identified in earlier exercises show high structural confidence, validating the functional annotation.
