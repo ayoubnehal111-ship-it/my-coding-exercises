@@ -54,3 +54,20 @@ I analyzed ARF6 using HHpred and AlphaFoldDB. The protein shows high structural 
 Using eggNOG-mapper (one-to-one orthologs), the following annotations were identified:
 - **Orthology Group**: ARF family.
 - **GO Terms**: GO:0003700 (transcription factor activity), GO:0009733 (response to auxin).
+## Exe 9: Gene Ontology Summary Table (QuickGO)
+
+### Functional Categories
+- **GO:0009414**: Response to water deprivation (Biological Process)
+- **GO:0035618**: Alternative oxidase activity (Molecular Function)
+- **GO:0016491**: Oxidoreductase activity (Molecular Function)
+
+### Photosynthesis Analysis
+- **GO ID**: GO:0015979
+- **Parents**: GO:0008152 (metabolic process)
+- **Children**: GO:0009765 (light harvesting), GO:0009853 (photorespiration)
+
+### Leaf Development Across Species
+I used the Taxonomy IDs to filter gene products for leaf development (GO:0048366):
+- Arabidopsis thaliana (Taxon: 3702)
+- Prunus persica (Taxon: 3760)
+- Zea mays (Taxon: 4577)
