@@ -47,3 +47,10 @@ I used PSI-BLAST with 3 iterations to create a Position-Specific Scoring Matrix 
 - [cite_start]**Adjustment**: The bit score threshold was adjusted to 150 (instead of the 200 mentioned in the task) to ensure enough sequences were included for a meaningful alignment. 
 - [cite_start]**Tools used**: Clustal Omega was used for Multiple Sequence Alignment (MSA), and HMMER tools (hmmbuild and hmmscan) were used for profile construction and database scanning. 
 - [cite_start]**Observation**: Profile HMMs proved to be more sensitive than standard BLAST for identifying conserved domains and distant orthologs within the ARF6 family.
+## Exe 7: Structural Similarity Analysis
+I analyzed ARF6 using HHpred and AlphaFoldDB. The protein shows high structural homology to the DNA-binding domains of Auxin Response Factors (e.g., PDB 4LHV).
+
+## Exe 8: Orthology and Functional Annotation
+Using eggNOG-mapper (one-to-one orthologs), the following annotations were identified:
+- **Orthology Group**: ARF family.
+- **GO Terms**: GO:0003700 (transcription factor activity), GO:0009733 (response to auxin).
