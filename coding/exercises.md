@@ -180,6 +180,9 @@ Zea mays ID= 4577: 45 proteins
 <img width="701" height="168" alt="image" src="https://github.com/user-attachments/assets/416e7a84-ad88-4698-8bd6-308070fcd0f9" />
 
 
+### Check the total number of BP annotations and proteins supported by the experimental evidence codes in both Arabidopsis thaliana and Prunus persica. (see the evidence codes) Tip : check the ‘Statistics’ box.
+<img width="591" height="73" alt="image" src="https://github.com/user-attachments/assets/6343eaef-1261-4425-b198-2020b96eea95" />
+
 
 
 
