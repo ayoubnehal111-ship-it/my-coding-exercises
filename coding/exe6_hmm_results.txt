@@ -1,0 +1,36 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+aligned_hits         -          sp|Q9LQE8|ARFN_ARATH -            4.4e-34  102.8   0.0   9.3e-34  101.7   0.0   1.5   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q94JM3|ARFB_ARATH -            1.5e-27   81.8   0.0   3.6e-27   80.6   0.0   1.7   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9ZTX9|ARFD_ARATH -              1e-23   69.5   0.0   2.4e-23   68.3   0.0   1.7   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|P93022|ARFG_ARATH -              6e-27   79.9   0.1     6e-27   79.9   0.1   2.5   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|Q8L7G0|ARFA_ARATH -            1.8e-27   81.5   0.1   4.1e-27   80.4   0.1   1.7   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9SKN5|ARFJ_ARATH -            8.2e-29   85.8   0.1   1.7e-28   84.9   0.1   1.5   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q84WU6|ARFQ_ARATH -            9.9e-25   72.7   0.4   2.4e-24   71.5   0.1   1.8   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|Q8RYC8|ARFS_ARATH -              5e-27   80.1   0.1     5e-27   80.1   0.1   2.6   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|O23661|ARFC_ARATH -            2.7e-23   68.1   0.0   5.1e-23   67.2   0.0   1.5   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|P93024|ARFE_ARATH -            5.9e-24   70.2   2.2     1e-23   69.5   0.0   2.3   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|Q9FGV1|ARFH_ARATH -            1.5e-26   78.6   1.3     2e-26   78.2   0.1   1.9   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|Q9XID4|ARFL_ARATH -            2.2e-33  100.5   0.0   5.4e-33   99.3   0.0   1.7   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9LQE3|ARFO_ARATH -            5.3e-33   99.3   0.0   1.4e-32   98.0   0.0   1.7   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q93YR9|ARFP_ARATH -            3.8e-30   90.1   0.0   7.6e-30   89.2   0.0   1.5   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9C8N9|ARFU_ARATH -            8.8e-33   98.6   0.0   1.9e-32   97.5   0.0   1.6   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9LP07|ARFW_ARATH -            4.2e-34  102.8   0.1   7.5e-34  102.0   0.1   1.4   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9XED8|ARFI_ARATH -            7.7e-30   89.1   0.0   2.1e-29   87.8   0.0   1.7   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9ZPY6|ARFK_ARATH -            6.1e-33   99.1   0.3   1.5e-32   97.9   0.0   1.8   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|Q9C5W9|ARFR_ARATH -            1.9e-28   84.6   0.0   4.1e-28   83.6   0.0   1.5   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9C7I9|ARFT_ARATH -            1.5e-32   97.8   0.0     4e-32   96.5   0.0   1.7   1   0   0   1   1   1   1 -
+aligned_hits         -          sp|Q9C8N7|ARFV_ARATH -            6.2e-33   99.1   0.1   1.7e-32   97.7   0.0   1.8   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|Q9ZTX8|ARFF_ARATH -              1e-28   85.5   0.1     1e-28   85.5   0.1   2.2   2   0   0   2   2   2   1 -
+aligned_hits         -          sp|Q9FX25|ARFM_ARATH -            1.3e-28   85.2   0.0   2.9e-28   84.1   0.0   1.6   1   0   0   1   1   1   1 -
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      ../uniprot_Atha.fasta
+# Target file:     arf6.hmm
+# Option settings: hmmscan --tblout coding/exe6_hmm_results.txt arf6.hmm ../uniprot_Atha.fasta 
+# Current dir:     /home/ayoubnehal/bioinformatics/test_data/my-coding-exercises
+# Date:            Sun Jan 25 15:15:29 2026
+# [ok]

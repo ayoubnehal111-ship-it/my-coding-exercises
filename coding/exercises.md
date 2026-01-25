@@ -26,3 +26,16 @@ I ran PSI-BLAST for 3 iterations to generate a sequence profile (PSSM).
   - Round 2 Score: 152 bits (E-value: 8e-56).
 - **Explanation of profile.out (PSSM):**
   The generated `profile.out` file contains the **Position-Specific Scoring Matrix**. Unlike a standard BLOSUM62 matrix, this PSSM is specifically tailored to the ARF6 sequence. It assigns scores to each of the 20 amino acids at every position of the 77-residue sequence based on the evolutionary conservation observed during the iterations.
+## Exe 6: Hidden Markov Model (HMM) Analysis
+I constructed a Profile HMM to identify homologs within the Arabidopsis proteome.
+
+### 1. Methodology
+- **Selection**: I filtered the initial BLAST hits for high-confidence sequences with a bit score > 200.
+- **MSA**: These sequences were aligned using Clustal Omega to identify conserved domains.
+- **Model Building**: I used `hmmbuild` to create a statistical profile (`arf6.hmm`) and `hmmpress` to prepare it for scanning.
+- **Scanning**: I ran `hmmscan` against the `uniprot_Atha.fasta` database.
+
+### 2. Results and Analysis
+- **Significant Hits**: The scan identified multiple Auxin Response Factors (ARFs) with very low E-values (e.g., ARFN at 4.4e-34 and ARFW at 4.2e-34).
+- **Comparison**: While BLAST uses a flat substitution matrix (BLOSUM62), HMMER uses a position-specific approach. This means it weights each position in the alignment differently based on how conserved it is.
+- **Conclusion**: The low E-values and high scores in the `exe6_hmm_results.txt` file confirm that the Profile HMM is a robust tool for identifying members of the same protein family, as it captures the "evolutionary signature" of the ARF family better than a standard pairwise search.
