@@ -56,7 +56,12 @@ The best taxonomy level found is Brassicales because we get an  e-value of 0 and
 <img width="880" height="469" alt="image" src="https://github.com/user-attachments/assets/7790e13e-c13e-47a9-b09d-f4ccd459674b" />
 ## Exe 9: Annotating function with Gene Ontology (GO) terms
 1.Search for the GO terms and the functional categories of the following GO IDs GO:0009414, GO:0035618, GO:0016491. Tip : For multiple search GO IDs needs to be separated by a space.
-<img width="404" height="88" alt="{F376558E-385A-4104-9CF0-EE80B2F54D58}" src="https://github.com/user-attachments/assets/1ac33745-7325-4f80-8250-583275d61ded" />
+<img width="908" height="261" alt="image" src="https://github.com/user-attachments/assets/375021df-0e80-4bbe-8871-d47ccf0c42b9" />
+
+
+
+
+
 2.What are the GO ID and the functional category corresponding to photosynthesis?
 For photosynthesis we found  the GO id : GO:0015979 which the functional category is 
 biological process.
