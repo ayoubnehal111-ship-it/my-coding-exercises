@@ -1,1 +1,9 @@
+# Session 5: Mapping and variant calling
 
+## Exe1: Results
+I successfully performed variant calling using freebayes on Oryza sativa data. 
+The process identified multiple variants (SNPs/Indels) on chromosome 10.
+
+## Problems faced
+I encountered permission issues when trying to write output files within the Docker container 
+environment, which I resolved by directing output to accessible directories.
