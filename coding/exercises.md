@@ -39,3 +39,9 @@ I constructed a Profile HMM to identify homologs within the Arabidopsis proteome
 - **Significant Hits**: The scan identified multiple Auxin Response Factors (ARFs) with very low E-values (e.g., ARFN at 4.4e-34 and ARFW at 4.2e-34).
 - **Comparison**: While BLAST uses a flat substitution matrix (BLOSUM62), HMMER uses a position-specific approach. This means it weights each position in the alignment differently based on how conserved it is.
 - **Conclusion**: The low E-values and high scores in the `exe6_hmm_results.txt` file confirm that the Profile HMM is a robust tool for identifying members of the same protein family, as it captures the "evolutionary signature" of the ARF family better than a standard pairwise search.
+- ## Exe 6: 
+Based on the HHpred analysis for the Arabidopsis protein AT1G30330.2 (Auxin Response Factor 6, ARF6), the protein contains distinct functional domains and shows high structural similarity to other plant transcription factors and structural models from the Protein Data Bank (PDB)
+Domain and Structural Similarity Table
+The table below summarizes the domains identified from Pfam and PDB matches, as well as highly similar sequences from the Arabidopsis thaliana proteome as found in the HHpred results.
+<img width="848" height="195" alt="image" src="https://github.com/user-attachments/assets/b288b260-9304-4358-ab35-f470c70a0abc" />
+
