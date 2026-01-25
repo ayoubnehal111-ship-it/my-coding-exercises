@@ -78,6 +78,11 @@ For photosynthesis we found  the GO id : GO:0015979 which the functional categor
 biological process.
 
 3.What are the immediate parent(s) and children of the photosynthesis GO term?
+Immediate Parents (Ancestors)
+The Ancestor Chart indicates that photosynthesis is a direct descendant of one primary term:
+
+metabolic process (GO:0008152)
+
 
 <img width="814" height="656" alt="image" src="https://github.com/user-attachments/assets/9138addc-a157-4b53-9c5f-26aea22c99a3" />
 
@@ -92,4 +97,28 @@ biological process.
 
 
 
+
+Immediate Children (Descendants)
+The Child Terms table lists seven direct descendants of the photosynthesis term:
+
 <img width="1171" height="622" alt="image" src="https://github.com/user-attachments/assets/8c5d6f50-a6d9-4320-8c83-e58e2fe0785a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search for the GO annotation terms of the following protein A0A068LKP4,A0A097PR28, A0A059Q6N8? What do you observe?
+
+
+<img width="727" height="88" alt="{3C67776D-934C-40A4-8ED2-80BAF105F782}" src="https://github.com/user-attachments/assets/10c3a9cf-7e1f-47e8-9706-c3ea65b2d4ba" />
