@@ -48,8 +48,11 @@ The table below summarizes the domains identified from Pfam and PDB matches, as 
 What are the GO terms and eggNOG orthology groups of this 
 protein? 
 The GO of this protein are : 
-<img width="643" height="613" alt="image" src="https://github.com/user-attachments/assets/5cc828dd-ac36-4bfe-be97-91b90c36a6ac" />
-<img width="667" height="433" alt="image" src="https://github.com/user-attachments/assets/ccfbc8b9-676b-4e24-a987-c8dae7274edd" />
+<img width="479" height="595" alt="image" src="https://github.com/user-attachments/assets/b7e3c3f8-65d7-4669-8b94-60bf0a8f62ce" />
+
+<img width="594" height="461" alt="image" src="https://github.com/user-attachments/assets/f5771053-8775-4608-98a3-60f1fa422018" />
+
 The best taxonomy level found is Brassicales because we get an  e-value of 0 and a score of 
 1692.6. That gives us the orthologs below:
-<img width="901" height="475" alt="image" src="https://github.com/user-attachments/assets/cdded2b7-8b52-4d71-b59d-6136e8d1b5b0" />
+<img width="880" height="469" alt="image" src="https://github.com/user-attachments/assets/7790e13e-c13e-47a9-b09d-f4ccd459674b" />
+
