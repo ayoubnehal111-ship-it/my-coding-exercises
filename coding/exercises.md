@@ -122,3 +122,65 @@ Search for the GO annotation terms of the following protein A0A068LKP4,A0A097PR2
 
 
 <img width="727" height="88" alt="{3C67776D-934C-40A4-8ED2-80BAF105F782}" src="https://github.com/user-attachments/assets/10c3a9cf-7e1f-47e8-9706-c3ea65b2d4ba" />
+
+
+
+
+
+
+
+
+
+By comparing the annotations of these three proteins, several important points become clear:
+
+1. Functional Conservation Across Species
+Even though Arabidopsis (a model weed), Prunus (a fruit tree), and Zea (a cereal crop) are separated by large evolutionary distances, their corresponding proteins carry almost identical functional annotations. This strongly supports the idea that they are true orthologs—genes that have retained the same biological role, in this case auxin‑related signaling and transcriptional regulation, across very different plant lineages.
+
+2. Evidence Code Patterns (IEA)
+Looking at the “Evidence” column, you’ll notice that most annotations for peach and maize rely on the IEA code (Inferred from Electronic Annotation). This means their functions are predicted computationally based on similarity to experimentally validated proteins—typically those from well‑studied model species—rather than on direct experimental work in these crops.
+
+3. Consistent GO Namespace Coverage
+All three proteins map to the same three Gene Ontology categories:
+
+Molecular Function: DNA binding, consistent with their role as transcription factors.
+
+Biological Process: Auxin response and transcriptional regulation.
+
+Cellular Component: Localized to the nucleus, where transcription factors operate.
+
+
+5. How many gene products are involved in leaf development? Give the GO ID corresponding to this term.
+
+
+
+<img width="696" height="136" alt="image" src="https://github.com/user-attachments/assets/10684e41-9a61-4d57-966b-0ab3a3d2b57c" />
+
+
+
+
+
+
+6.How many proteins of Arabidopsis thaliana, Prunus perisca and Zea mays are assigned to the leaf development GO term. Tip : Zea mays. Taxonomy ID=4577
+
+Arabidopsis thaliana ID= 3702: 127 proteins 
+
+<img width="347" height="51" alt="{529A5C7C-DC91-4692-99B9-240EA4FB2025}" src="https://github.com/user-attachments/assets/5722486d-04a1-497d-9a14-fd2ba29fd301" />
+
+
+Prunus persica ID=3760: 19 proteins
+
+<img width="324" height="76" alt="image" src="https://github.com/user-attachments/assets/21dce6a3-ade0-4887-bc85-4a17a68fe44e" />
+
+
+
+
+
+Zea mays ID= 4577: 45 proteins 
+
+<img width="701" height="168" alt="image" src="https://github.com/user-attachments/assets/416e7a84-ad88-4698-8bd6-308070fcd0f9" />
+
+
+
+
+
+
