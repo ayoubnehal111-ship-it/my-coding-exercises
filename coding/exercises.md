@@ -18,3 +18,11 @@ The default format is **Pairwise** (Option 0). It shows the amino acid sequences
 - **blastp hits:** 100
 - **blastx hits:** 95
 - **Observation:** `blastp` found more hits in this specific search. This is expected as `blastx` must translate the DNA query into 6 frames, which can affect the alignment sensitivity.
+## Exe 5: PSI-BLAST Profile Analysis
+I ran PSI-BLAST for 3 iterations to generate a sequence profile (PSSM).
+
+- **Observation:** The search **CONVERGED** after 2 rounds. This indicates that no additional significant sequences were found in the database that weren't already included in the profile model.
+- **Results:** - Round 1 Score: 159 bits (E-value: 1e-58).
+  - Round 2 Score: 152 bits (E-value: 8e-56).
+- **Explanation of profile.out (PSSM):**
+  The generated `profile.out` file contains the **Position-Specific Scoring Matrix**. Unlike a standard BLOSUM62 matrix, this PSSM is specifically tailored to the ARF6 sequence. It assigns scores to each of the 20 amino acids at every position of the 77-residue sequence based on the evolutionary conservation observed during the iterations.
