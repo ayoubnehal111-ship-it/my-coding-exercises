@@ -26,10 +26,22 @@ Therefore, a soft-thresholding power of 6 was selected for adjacency calculation
 
 ## 3.4) How many co-expression modules are established before and how many after the module merging process?
 
+
+
 ## 3.5) What is the hub isoform (or hub gene) of the cyan module?
+Hub genes were identified using the chooseTopHubInEachModule() function from the WGCNA package. This function determines the most highly connected gene within each co-expression module based on intramodular connectivity, which reflects the extent to which a gene is co-expressed with other genes in the same module.
+The analysis was performed on the expression matrix used for network construction, using a soft-thresholding power of 6 and an unsigned network type. Genes assigned to the grey module were excluded, as this module contains genes that were not assigned to any co-expression module.
+Based on this analysis, Bradi1g00700.3 was identified as the hub isoform of the cyan module.
+The complete list of hub genes for all co-expression modules is presented in the figure below.
+<img width="859" height="449" alt="image" src="https://github.com/user-attachments/assets/1017a108-143a-4de1-b8ca-bdecd7267b6e" />
 
-3.6) According to the module-trait association heat map, which module has the highest positive correlation with the "blwgrd (below ground biomass)" trait?
 
+## 3.6) According to the module-trait association heat map, which module has the highest positive correlation with the "blwgrd (below ground biomass)" trait?
+Module–trait relationships were evaluated using a correlation heat map in which each cell reports the Pearson correlation coefficient between a module eigengene and a phenotypic trait, together with the associated p-value.
+The blwgrd (below ground biomass) column of the heat map shows that the violet module (MEviolet) has the highest positive correlation with this trait. The correlation coefficient reaches r = 0.64, with a highly significant p-value (p = 4 × 10⁻⁴), supporting a strong association between the violet module and below ground biomass.
+Therefore, the violet module is the module most positively associated with the blwgrd trait in the W dataset.
+The module–trait association heat map is shown in the figure below and is also provided as a PDF file.
 
-
+<img width="510" height="717" alt="image" src="https://github.com/user-attachments/assets/65be5663-fc73-4e4d-a06e-553b63fd6933" />
+[heatmap_traits_modules_W.pdf](https://github.com/user-attachments/files/24848144/heatmap_traits_modules_W.pdf)
 
