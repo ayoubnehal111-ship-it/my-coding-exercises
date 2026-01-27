@@ -55,7 +55,7 @@ The best taxonomy level found is Brassicales because we get an  e-value of 0 and
 1692.6. That gives us the orthologs below:
 <img width="880" height="469" alt="image" src="https://github.com/user-attachments/assets/7790e13e-c13e-47a9-b09d-f4ccd459674b" />
 ## Exe 9: Annotating function with Gene Ontology (GO) terms
-1.Search for the GO terms and the functional categories of the following GO IDs GO:0009414, GO:0035618, GO:0016491. Tip : For multiple search GO IDs needs to be separated by a space.
+### 1.Search for the GO terms and the functional categories of the following GO IDs GO:0009414, GO:0035618, GO:0016491. Tip : For multiple search GO IDs needs to be separated by a space.
 
 <img width="908" height="261" alt="image" src="https://github.com/user-attachments/assets/375021df-0e80-4bbe-8871-d47ccf0c42b9" />
 
@@ -73,14 +73,12 @@ The best taxonomy level found is Brassicales because we get an  e-value of 0 and
 
 
 
-2.What are the GO ID and the functional category corresponding to photosynthesis?
-For photosynthesis we found  the GO id : GO:0015979 which the functional category is 
-biological process.
+### 2.What are the GO ID and the functional category corresponding to photosynthesis?
+For photosynthesis we found  the GO id : GO:0015979 which the functional category is biological process.
 
-3.What are the immediate parent(s) and children of the photosynthesis GO term?
-Immediate Parents (Ancestors)
+### 3.What are the immediate parent(s) and children of the photosynthesis GO term?
+#### Immediate Parents (Ancestors)
 The Ancestor Chart indicates that photosynthesis is a direct descendant of one primary term:
-
 metabolic process (GO:0008152)
 
 
@@ -98,7 +96,7 @@ metabolic process (GO:0008152)
 
 
 
-Immediate Children (Descendants)
+#### Immediate Children (Descendants)
 The Child Terms table lists seven direct descendants of the photosynthesis term:
 
 <img width="1171" height="622" alt="image" src="https://github.com/user-attachments/assets/8c5d6f50-a6d9-4320-8c83-e58e2fe0785a" />
@@ -118,7 +116,7 @@ The Child Terms table lists seven direct descendants of the photosynthesis term:
 
 
 
-Search for the GO annotation terms of the following protein A0A068LKP4,A0A097PR28, A0A059Q6N8? What do you observe?
+### 4.Search for the GO annotation terms of the following protein A0A068LKP4,A0A097PR28, A0A059Q6N8? What do you observe?
 
 
 <img width="727" height="88" alt="{3C67776D-934C-40A4-8ED2-80BAF105F782}" src="https://github.com/user-attachments/assets/10c3a9cf-7e1f-47e8-9706-c3ea65b2d4ba" />
@@ -128,18 +126,15 @@ Search for the GO annotation terms of the following protein A0A068LKP4,A0A097PR2
 
 
 
-
-
-
 By comparing the annotations of these three proteins, several important points become clear:
 
-1. Functional Conservation Across Species
+#### 1. Functional Conservation Across Species
 Even though Arabidopsis (a model weed), Prunus (a fruit tree), and Zea (a cereal crop) are separated by large evolutionary distances, their corresponding proteins carry almost identical functional annotations. This strongly supports the idea that they are true orthologs—genes that have retained the same biological role, in this case auxin‑related signaling and transcriptional regulation, across very different plant lineages.
 
-2. Evidence Code Patterns (IEA)
+#### 2. Evidence Code Patterns (IEA)
 Looking at the “Evidence” column, you’ll notice that most annotations for peach and maize rely on the IEA code (Inferred from Electronic Annotation). This means their functions are predicted computationally based on similarity to experimentally validated proteins—typically those from well‑studied model species—rather than on direct experimental work in these crops.
 
-3. Consistent GO Namespace Coverage
+#### 3. Consistent GO Namespace Coverage
 All three proteins map to the same three Gene Ontology categories:
 
 Molecular Function: DNA binding, consistent with their role as transcription factors.
@@ -149,7 +144,7 @@ Biological Process: Auxin response and transcriptional regulation.
 Cellular Component: Localized to the nucleus, where transcription factors operate.
 
 
-5. How many gene products are involved in leaf development? Give the GO ID corresponding to this term.
+### 5. How many gene products are involved in leaf development? Give the GO ID corresponding to this term.
 
 
 
@@ -160,7 +155,7 @@ Cellular Component: Localized to the nucleus, where transcription factors operat
 
 
 
-6.How many proteins of Arabidopsis thaliana, Prunus perisca and Zea mays are assigned to the leaf development GO term. Tip : Zea mays. Taxonomy ID=4577
+### 6.How many proteins of Arabidopsis thaliana, Prunus perisca and Zea mays are assigned to the leaf development GO term. Tip : Zea mays. Taxonomy ID=4577
 
 Arabidopsis thaliana ID= 3702: 127 proteins 
 
@@ -180,7 +175,7 @@ Zea mays ID= 4577: 45 proteins
 <img width="701" height="168" alt="image" src="https://github.com/user-attachments/assets/416e7a84-ad88-4698-8bd6-308070fcd0f9" />
 
 
-### Check the total number of BP annotations and proteins supported by the experimental evidence codes in both Arabidopsis thaliana and Prunus persica. (see the evidence codes) Tip : check the ‘Statistics’ box.
+###  Check the total number of BP annotations and proteins supported by the experimental evidence codes in both Arabidopsis thaliana and Prunus persica. (see the evidence codes) Tip : check the ‘Statistics’ box.
 <img width="591" height="73" alt="image" src="https://github.com/user-attachments/assets/6343eaef-1261-4425-b198-2020b96eea95" />
 
 
