@@ -182,3 +182,15 @@ Zea mays ID= 4577: 45 proteins
 
 
 
+
+
+
+
+
+
+
+
+
+
+Exe 10 : Predicting 3D structure
+<img width="745" height="639" alt="image" src="https://github.com/user-attachments/assets/6c45d97d-ab9e-4853-8dd2-7f9a1f0e53a9" />
