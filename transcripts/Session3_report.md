@@ -1,5 +1,15 @@
 # Session 3 – Transcriptome analysis
-## 3.1)How many samples & isoforms are included in TPM_counts_Drought_W_dataset.csv?
+## Gene Co-expression Modules Identified in Watered (W) RNA-seq Samples
+This report was prepared as part of Session 3: Analysis of transcriptomes, which focuses on transcript-level analyses, including the study of gene expression patterns and co-expression relationships. Following the session guidelines, a folder named transcripts/ was created in the same GitHub repository used in Session 1 to document the analysis workflow and results.
+In this report, we performed a gene co-expression network analysis using RNA-seq data from the watered (W) samples, based on the practical material provided (Practical_WGCNA_W_dataset.Rmd). The objective was to identify groups of transcripts showing coordinated expression patterns across samples and to relate these groups to phenotypic traits.
+The analysis began with the preprocessing of the transcript expression dataset (TPM_counts_Drought_W_dataset.csv). Isoform identifiers were excluded from numerical analyses and used only for labeling, resulting in a samples-by-isoforms expression matrix suitable for downstream network construction. Quality control was then carried out to detect potential outlier samples or genes, and no samples were discarded at this stage.
+A weighted gene co-expression network was constructed using the WGCNA framework. Pairwise correlations between transcript expression profiles were computed and transformed into an adjacency matrix using a soft-thresholding power selected according to scale-free topology criteria. The adjacency matrix was subsequently converted into a topological overlap matrix (TOM), which was used to perform hierarchical clustering of transcripts.
+Initial co-expression modules were identified using dynamic tree cutting, yielding 40 modules before merging. Module eigengenes were calculated to summarize the expression profile of each module, and modules with highly correlated eigengenes were merged to reduce redundancy, resulting less modules after merging(question 3.4). Hub isoforms were identified for each module, and module–trait associations were explored using correlation heat maps, allowing the identification of modules significantly associated with specific phenotypic traits.
+Throughout the analysis, the main inputs, outputs, and intermediate results were documented, and graphical outputs such as dendrograms and heat maps were generated to support the interpretation. Challenges encountered during the analysis mainly concerned the interpretation of module counts and their numerical display in the console, which were resolved through additional verification steps without altering the analytical workflow.
+Finally, this type of co-expression analysis could be applied to experimental designs aiming to identify transcript modules associated with agronomic traits, stress responses, or developmental processes, providing candidate genes or isoforms for further functional validation.
+
+## Questions:
+### 3.1)How many samples & isoforms are included in TPM_counts_Drought_W_dataset.csv?
 The TPM_counts_Drought_W_dataset.csv file was loaded into R using the read.csv() function, and the dataset dimensions were initially examined using the dim() function.
 At first inspection, the dataset appeared to contain 9,940 isoforms and 40 columns; however, this result was misleading because the target_id column was included among the columns.
 To obtain the correct numbers, the script was slightly modified by adding two lines that explicitly display the dimensions of the reformatted expression matrix. While the initial output referred to the original table (W_dataset), the modified code reports the dimensions of the processed matrix (datExprW), which excludes the target_id column and is used for downstream analyses.
@@ -9,13 +19,13 @@ The script used to load, verify, and reformat the dataset, as well as the corres
 <img width="1001" height="522" alt="image" src="https://github.com/user-attachments/assets/7bac0102-1e49-4f1f-adf7-06fd03c1d6a0" />
 
 
-## 3.2) How many samples are discarded after outlier analysis?
+### 3.2) How many samples are discarded after outlier analysis?
 The detection of outlier samples was performed using the goodSamplesGenes() function from the WGCNA package. This function assesses the quality of the expression matrix by identifying samples and genes with excessive missing values, which could potentially bias downstream network construction.
 The analysis was applied to the reformatted expression matrix (datExprW), which contains only expression values and excludes the identifier column. The output of goodSamplesGenes() indicated that all samples and genes passed the quality control step, as reflected by the allOK = TRUE result.
 Consequently, no RNA-seq samples were identified as outliers and no samples were removed from the dataset at this stage. The script used for this analysis was not modified, and the corresponding results are shown in the figure below.
 <img width="1129" height="694" alt="image" src="https://github.com/user-attachments/assets/e8c47dc0-4389-466f-bcc3-210b070a20c9" />
 
-## 3.3) What power value have you set as appropriate for calculating adjacency?
+### 3.3) What power value have you set as appropriate for calculating adjacency?
 To construct a weighted gene co-expression network, an appropriate soft-thresholding power was selected using the pickSoftThreshold() function from the WGCNA package. This function evaluates network topology across a range of candidate power values by assessing the scale-free topology fit index (R²) and the mean connectivity.
 The scale-free topology fit index was examined as a function of the soft-thresholding power, and a threshold of R² ≥ 0.80 was used as a criterion to approximate scale-free network topology. The results indicate that power = 6 is the smallest power value at which the scale-free topology fit index exceeds this threshold. Beyond this value, the fit index increases only marginally, indicating that higher power values do not substantially improve the scale-free topology of the network.
 In addition, the scale independence and mean connectivity plots shown in the figures confirm that power = 6 represents an optimal compromise between achieving scale-free topology and preserving sufficient network connectivity. The plots clearly demonstrate that this power value provides a stable network structure without excessively reducing connectivity.
@@ -24,7 +34,7 @@ Therefore, a soft-thresholding power of 6 was selected for adjacency calculation
 <img width="913" height="232" alt="image" src="https://github.com/user-attachments/assets/51f369d6-2a24-43b4-adba-11a6cbe71ca3" />
 <img width="903" height="518" alt="image" src="https://github.com/user-attachments/assets/3b9b015a-9714-4cda-bb4c-d773f9d38503" />
 
-## 3.4) How many co-expression modules are established before and how many after the module merging process?
+### 3.4) How many co-expression modules are established before and how many after the module merging process?
 
 The co-expression analysis was carried out in two main steps: module detection before merging and module merging based on eigengene similarity. In both steps, the scripts primarily generate graphical outputs, such as dendrograms and module color plots, and do not explicitly report the total number of detected modules in the R console.
 For this reason, an additional line of code was added in each section to display the number of modules numerically in the console. This modification was limited to result visualization only and did not alter the workflow or the functioning of the original scripts.
@@ -35,7 +45,7 @@ So based on the R script we have the result shown by the line command “print(l
 <img width="704" height="554" alt="image" src="https://github.com/user-attachments/assets/bc8fe228-1d2b-49a5-8e34-eae39a492fa3" />
 
 
-## 3.5) What is the hub isoform (or hub gene) of the cyan module?
+### 3.5) What is the hub isoform (or hub gene) of the cyan module?
 Hub genes were identified using the chooseTopHubInEachModule() function from the WGCNA package. This function determines the most highly connected gene within each co-expression module based on intramodular connectivity, which reflects the extent to which a gene is co-expressed with other genes in the same module.
 The analysis was performed on the expression matrix used for network construction, using a soft-thresholding power of 6 and an unsigned network type. Genes assigned to the grey module were excluded, as this module contains genes that were not assigned to any co-expression module.
 Based on this analysis, Bradi1g00700.3 was identified as the hub isoform of the cyan module.
@@ -43,7 +53,7 @@ The complete list of hub genes for all co-expression modules is presented in the
 <img width="859" height="449" alt="image" src="https://github.com/user-attachments/assets/1017a108-143a-4de1-b8ca-bdecd7267b6e" />
 
 
-## 3.6) According to the module-trait association heat map, which module has the highest positive correlation with the "blwgrd (below ground biomass)" trait?
+### 3.6) According to the module-trait association heat map, which module has the highest positive correlation with the "blwgrd (below ground biomass)" trait?
 Module–trait relationships were evaluated using a correlation heat map in which each cell reports the Pearson correlation coefficient between a module eigengene and a phenotypic trait, together with the associated p-value.
 The blwgrd (below ground biomass) column of the heat map shows that the violet module (MEviolet) has the highest positive correlation with this trait. The correlation coefficient reaches r = 0.64, with a highly significant p-value (p = 4 × 10⁻⁴), supporting a strong association between the violet module and below ground biomass.
 Therefore, the violet module is the module most positively associated with the blwgrd trait in the W dataset.
