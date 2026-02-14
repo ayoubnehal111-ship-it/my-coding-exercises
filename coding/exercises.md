@@ -24,13 +24,69 @@ For example :
 - **blastx hits:** 95
 - **Observation:** `blastp` found more hits in this specific search. This is expected as `blastx` must translate the DNA query into 6 frames, which can affect the alignment sensitivity.
 ## Exe 5: PSI-BLAST Profile Analysis
-I ran PSI-BLAST for 3 iterations to generate a sequence profile (PSSM).
+The PSI-BLAST output generates a Position-Specific Scoring Matrix (PSSM) that serves as a functional "fingerprint" for the ARF6 protein family. Each row represents a sequence position where high positive scores, such as the 8 for Histidine at position 13, indicate amino acids that are highly conserved and likely essential for biological function. The scoring is adjusted over 3 iterations against your database of 136,324 sequences to identify distant homologs that standard BLAST might overlook. Statistical parameters like Lambda and K at the bottom are used to calculate the E-value, ensuring that matches like your 100% identity hit are statistically significant.
 
-- **Observation:** The search **CONVERGED** after 2 rounds. This indicates that no additional significant sequences were found in the database that weren't already included in the profile model.
-- **Results:** - Round 1 Score: 159 bits (E-value: 1e-58).
-  - Round 2 Score: 152 bits (E-value: 8e-56).
-- **Explanation of profile.out (PSSM):**
-  The generated `profile.out` file contains the **Position-Specific Scoring Matrix**. Unlike a standard BLOSUM62 matrix, this PSSM is specifically tailored to the ARF6 sequence. It assigns scores to each of the 20 amino acids at every position of the 77-residue sequence based on the evolutionary conservation observed during the iterations.
+<img width="742" height="378" alt="{0F2B72E1-291F-4603-BC5A-CB212DCAD982}" src="https://github.com/user-attachments/assets/dbd81c33-df94-43be-9b53-62b11faf1567" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="735" height="354" alt="{5E744658-0DCD-4D0D-968C-1BA84549AF01}" src="https://github.com/user-attachments/assets/35ff8883-efa6-47eb-95ea-07957d246e7c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="751" height="390" alt="{6C518B7E-1116-4F72-9691-2345681CE78C}" src="https://github.com/user-attachments/assets/93a9d850-8da0-45b3-a2ce-ffe5b07759ca" />
+
+
+
 ## Exe 6: Hidden Markov Model (HMM) Analysis
 I constructed a Profile HMM to identify homologs within the Arabidopsis proteome.
 
