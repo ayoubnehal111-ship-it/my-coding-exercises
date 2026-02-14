@@ -1,0 +1,9 @@
+Database: uniprot_Atha.fasta
+	136,324 sequences; 57,483,740 total residues
+
+Date: Feb 14, 2026  2:24 PM	Longest sequence: 8,206 residues
+
+BLASTDB Version: 5
+
+Volumes:
+	/home/ayoubnehal/my-coding-exercises/coding/uniprot_Atha.fasta

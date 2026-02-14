@@ -66,6 +66,7 @@ The best taxonomy level found is Brassicales because we get an  e-value of 0 and
 
 
 
+<<<<<<< Updated upstream
 
 
 <img width="403" height="92" alt="{38EA3CA8-2B35-4F03-82D6-9DF34C726431}" src="https://github.com/user-attachments/assets/70a463e5-dd8d-4f2f-a9a1-58c5f20ff48e" />
@@ -199,3 +200,9 @@ Zea mays ID= 4577: 45 proteins
 
 Exe 10 : Predicting 3D structure
 <img width="745" height="639" alt="image" src="https://github.com/user-attachments/assets/6c45d97d-ab9e-4853-8dd2-7f9a1f0e53a9" />
+=======
+**Observation**: Although the average score is low, the key domains identified in earlier exercises show high structural confidence, validating the functional annotation.
+### Exercise 4.1.1 Results
+- Database successfully formatted in the coding directory.
+- Total sequences: 136,324
+>>>>>>> Stashed changes

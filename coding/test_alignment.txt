@@ -1,0 +1,2070 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprot_Atha.fasta
+           136,324 sequences; 57,483,740 total letters
+
+
+
+Query= AT1G30330.2 [Arabidopsis thaliana] ARF6 (AUXIN RESPONSE FACTOR 6)
+
+Length=77
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+tr|A0A654EE38|A0A654EE38_ARATH Auxin response factor OS=Arabidops...  164     4e-48
+sp|Q9ZTX8|ARFF_ARATH Auxin response factor 6 OS=Arabidopsis thali...  164     4e-48
+tr|A0A5S9WDQ8|A0A5S9WDQ8_ARATH Auxin response factor OS=Arabidops...  163     4e-48
+tr|A0A7G2DXI1|A0A7G2DXI1_ARATH Auxin response factor OS=Arabidops...  130     2e-36
+tr|A0A6B9KUT7|A0A6B9KUT7_ARATH Auxin response factor OS=Arabidops...  120     9e-33
+tr|A0A5S9Y8N3|A0A5S9Y8N3_ARATH Auxin response factor OS=Arabidops...  120     9e-33
+tr|A0A178UFA9|A0A178UFA9_ARATH Auxin response factor OS=Arabidops...  119     1e-32
+sp|Q9FGV1|ARFH_ARATH Auxin response factor 8 OS=Arabidopsis thali...  119     1e-32
+tr|A0A178WP07|A0A178WP07_ARATH Auxin response factor OS=Arabidops...  100     6e-26
+tr|A0A7G2DWI1|A0A7G2DWI1_ARATH Auxin response factor OS=Arabidops...  100     6e-26
+sp|Q8RYC8|ARFS_ARATH Auxin response factor 19 OS=Arabidopsis thal...  100     6e-26
+tr|A0A654EB75|A0A654EB75_ARATH Auxin response factor OS=Arabidops...  100     7e-26
+tr|A0A5S9V4T5|A0A5S9V4T5_ARATH Auxin response factor OS=Arabidops...  100     7e-26
+sp|P93022|ARFG_ARATH Auxin response factor 7 OS=Arabidopsis thali...  97.8    5e-25
+tr|F4K5M5|F4K5M5_ARATH Auxin response factor OS=Arabidopsis thali...  97.8    5e-25
+tr|A0A5S9Y682|A0A5S9Y682_ARATH Auxin response factor OS=Arabidops...  97.8    5e-25
+tr|A0A178URD8|A0A178URD8_ARATH Auxin response factor OS=Arabidops...  97.8    5e-25
+tr|A0A7G2F942|A0A7G2F942_ARATH Auxin response factor OS=Arabidops...  97.8    5e-25
+tr|A0A654G3B4|A0A654G3B4_ARATH Auxin response factor OS=Arabidops...  97.8    5e-25
+tr|A0A178W993|A0A178W993_ARATH Auxin response factor OS=Arabidops...  85.5    1e-20
+sp|P93024|ARFE_ARATH Auxin response factor 5 OS=Arabidopsis thali...  85.5    1e-20
+tr|A0A1P8AQ60|A0A1P8AQ60_ARATH Auxin response factor OS=Arabidops...  85.5    1e-20
+tr|F4K536|F4K536_ARATH Auxin response factor OS=Arabidopsis thali...  67.8    2e-14
+tr|A0A654GD70|A0A654GD70_ARATH Auxin response factor OS=Arabidops...  67.8    2e-14
+sp|Q94JM3|ARFB_ARATH Auxin response factor 2 OS=Arabidopsis thali...  67.8    2e-14
+tr|A0A5S9YGE7|A0A5S9YGE7_ARATH Auxin response factor OS=Arabidops...  67.8    2e-14
+tr|A0A178UUC3|A0A178UUC3_ARATH Auxin response factor OS=Arabidops...  67.8    2e-14
+tr|A0A178VRP5|A0A178VRP5_ARATH Auxin response factor OS=Arabidops...  66.6    5e-14
+sp|Q9ZPY6|ARFK_ARATH Auxin response factor 11 OS=Arabidopsis thal...  66.6    5e-14
+tr|A0A5S9X7H4|A0A5S9X7H4_ARATH Auxin response factor OS=Arabidops...  66.6    5e-14
+tr|A0A7G2EEI2|A0A7G2EEI2_ARATH Auxin response factor OS=Arabidops...  66.6    6e-14
+tr|A0A178WJ02|A0A178WJ02_ARATH ARF1 OS=Arabidopsis thaliana OX=37...  64.7    2e-13
+tr|F4ID31|F4ID31_ARATH Auxin response factor OS=Arabidopsis thali...  64.3    4e-13
+tr|A0A5S9WNB3|A0A5S9WNB3_ARATH Auxin response factor OS=Arabidops...  64.3    4e-13
+tr|A0A7G2E508|A0A7G2E508_ARATH Auxin response factor OS=Arabidops...  64.3    4e-13
+tr|B9DGM9|B9DGM9_ARATH Auxin response factor OS=Arabidopsis thali...  63.9    4e-13
+tr|A0A654EJH5|A0A654EJH5_ARATH Auxin response factor OS=Arabidops...  63.9    4e-13
+sp|Q8L7G0|ARFA_ARATH Auxin response factor 1 OS=Arabidopsis thali...  63.9    4e-13
+tr|A0A7G2E1X2|A0A7G2E1X2_ARATH Auxin response factor OS=Arabidops...  63.9    4e-13
+tr|A0A178WF94|A0A178WF94_ARATH Auxin response factor OS=Arabidops...  63.9    4e-13
+tr|A0A654EHJ5|A0A654EHJ5_ARATH Auxin response factor OS=Arabidops...  61.6    2e-12
+sp|Q9LP07|ARFW_ARATH Putative auxin response factor 23 OS=Arabido...  60.8    2e-12
+tr|A0A178W496|A0A178W496_ARATH Auxin response factor OS=Arabidops...  60.8    4e-12
+tr|A0A5S9WJZ6|A0A5S9WJZ6_ARATH Auxin response factor OS=Arabidops...  60.8    5e-12
+sp|Q9LQE8|ARFN_ARATH Putative auxin response factor 14 OS=Arabido...  60.1    9e-12
+tr|A0A178V7A7|A0A178V7A7_ARATH Auxin response factor OS=Arabidops...  60.1    9e-12
+sp|Q9C5W9|ARFR_ARATH Auxin response factor 18 OS=Arabidopsis thal...  60.1    9e-12
+tr|A0A5S9XN52|A0A5S9XN52_ARATH Auxin response factor OS=Arabidops...  60.1    9e-12
+tr|A0A7G2E1P3|A0A7G2E1P3_ARATH Auxin response factor OS=Arabidops...  60.1    1e-11
+tr|A0A7G2EWT7|A0A7G2EWT7_ARATH Auxin response factor OS=Arabidops...  60.1    1e-11
+tr|A0A5S9WIX7|A0A5S9WIX7_ARATH Auxin response factor OS=Arabidops...  59.3    2e-11
+tr|A0A178WK87|A0A178WK87_ARATH Auxin response factor OS=Arabidops...  58.9    3e-11
+tr|A0A654EH28|A0A654EH28_ARATH Auxin response factor OS=Arabidops...  58.9    3e-11
+tr|A0A1P8BF20|A0A1P8BF20_ARATH Auxin response factor OS=Arabidops...  57.0    1e-10
+tr|A0A7G2FJJ2|A0A7G2FJJ2_ARATH Auxin response factor OS=Arabidops...  57.0    1e-10
+tr|A0A7G2FHQ6|A0A7G2FHQ6_ARATH Auxin response factor OS=Arabidops...  57.0    1e-10
+tr|A0A7G2EH18|A0A7G2EH18_ARATH Auxin response factor OS=Arabidops...  56.6    1e-10
+tr|A0A5S9X3R2|A0A5S9X3R2_ARATH Auxin response factor OS=Arabidops...  56.6    1e-10
+sp|O23661|ARFC_ARATH Auxin response factor 3 OS=Arabidopsis thali...  56.6    1e-10
+tr|A0A178VTM6|A0A178VTM6_ARATH Auxin response factor OS=Arabidops...  56.6    2e-10
+tr|A0A654GCU3|A0A654GCU3_ARATH Auxin response factor OS=Arabidops...  56.6    2e-10
+sp|Q9ZTX9|ARFD_ARATH Auxin response factor 4 OS=Arabidopsis thali...  56.6    2e-10
+tr|A0A5S9YFY0|A0A5S9YFY0_ARATH Auxin response factor OS=Arabidops...  56.6    2e-10
+tr|A0A178ULQ0|A0A178ULQ0_ARATH Auxin response factor OS=Arabidops...  56.6    2e-10
+tr|A0A178UKM2|A0A178UKM2_ARATH Auxin response factor OS=Arabidops...  56.6    2e-10
+tr|C0Z2C7|C0Z2C7_ARATH Auxin response factor OS=Arabidopsis thali...  55.8    3e-10
+tr|A0A178W773|A0A178W773_ARATH Auxin response factor OS=Arabidops...  55.8    3e-10
+tr|A0A5S9WLK3|A0A5S9WLK3_ARATH Auxin response factor OS=Arabidops...  55.8    3e-10
+tr|C0SUZ1|C0SUZ1_ARATH Auxin response factor (Fragment) OS=Arabid...  55.8    4e-10
+tr|A0A654EGG9|A0A654EGG9_ARATH Auxin response factor OS=Arabidops...  55.8    4e-10
+sp|Q9XID4|ARFL_ARATH Auxin response factor 12 OS=Arabidopsis thal...  55.8    4e-10
+tr|A0A654FS80|A0A654FS80_ARATH Auxin response factor OS=Arabidops...  55.5    4e-10
+tr|A0A178V403|A0A178V403_ARATH Auxin response factor OS=Arabidops...  55.5    4e-10
+sp|Q9XED8|ARFI_ARATH Auxin response factor 9 OS=Arabidopsis thali...  55.5    4e-10
+tr|A0A7G2F068|A0A7G2F068_ARATH Auxin response factor OS=Arabidops...  55.5    4e-10
+tr|A0A178V3T9|A0A178V3T9_ARATH Auxin response factor OS=Arabidops...  55.1    5e-10
+tr|A0A654EGH8|A0A654EGH8_ARATH Auxin response factor OS=Arabidops...  55.1    5e-10
+tr|A0A7G2DY53|A0A7G2DY53_ARATH Auxin response factor OS=Arabidops...  55.1    5e-10
+tr|A0A5S9XX90|A0A5S9XX90_ARATH Auxin response factor OS=Arabidops...  55.1    5e-10
+sp|Q93YR9|ARFP_ARATH Auxin response factor 16 OS=Arabidopsis thal...  55.1    5e-10
+tr|A0A7G2F1Q0|A0A7G2F1Q0_ARATH Auxin response factor OS=Arabidops...  55.1    6e-10
+tr|A0A178WJK3|A0A178WJK3_ARATH Auxin response factor OS=Arabidops...  55.1    6e-10
+sp|Q9C8N7|ARFV_ARATH Auxin response factor 22 OS=Arabidopsis thal...  54.7    7e-10
+tr|A0A7G2DY49|A0A7G2DY49_ARATH Auxin response factor OS=Arabidops...  54.7    7e-10
+tr|A0A5S9WLS8|A0A5S9WLS8_ARATH Auxin response factor OS=Arabidops...  54.7    9e-10
+sp|Q9C7I9|ARFT_ARATH Auxin response factor 20 OS=Arabidopsis thal...  54.7    9e-10
+tr|A0A2H1ZEC0|A0A2H1ZEC0_ARATH Auxin response factor OS=Arabidops...  54.7    9e-10
+tr|A0A7G2DV23|A0A7G2DV23_ARATH Auxin response factor OS=Arabidops...  54.3    1e-09
+tr|A0A5S9WIV2|A0A5S9WIV2_ARATH Auxin response factor OS=Arabidops...  54.3    1e-09
+tr|A0A7G2E166|A0A7G2E166_ARATH Auxin response factor OS=Arabidops...  54.3    1e-09
+sp|Q9FX25|ARFM_ARATH Auxin response factor 13 OS=Arabidopsis thal...  53.9    1e-09
+tr|F4HT52|F4HT52_ARATH Auxin response factor OS=Arabidopsis thali...  53.9    2e-09
+sp|Q9C8N9|ARFU_ARATH Putative auxin response factor 21 OS=Arabido...  53.9    2e-09
+tr|A0A5S9WIN4|A0A5S9WIN4_ARATH Auxin response factor OS=Arabidops...  53.5    2e-09
+tr|A0A654EFH6|A0A654EFH6_ARATH Auxin response factor OS=Arabidops...  53.5    2e-09
+tr|A0A654EGW4|A0A654EGW4_ARATH Auxin response factor OS=Arabidops...  53.5    2e-09
+tr|A0A5S9WLN3|A0A5S9WLN3_ARATH Auxin response factor OS=Arabidops...  53.5    2e-09
+sp|Q9LQE3|ARFO_ARATH Putative auxin response factor 15 OS=Arabido...  53.5    2e-09
+tr|A0A7G2DYM9|A0A7G2DYM9_ARATH Auxin response factor OS=Arabidops...  53.1    3e-09
+tr|A0A178W9V0|A0A178W9V0_ARATH Auxin response factor OS=Arabidops...  53.1    3e-09
+tr|A0A178WHC9|A0A178WHC9_ARATH Auxin response factor OS=Arabidops...  52.0    7e-09
+tr|A0A5S9WLL9|A0A5S9WLL9_ARATH Auxin response factor OS=Arabidops...  51.6    1e-08
+tr|A0A654EFB8|A0A654EFB8_ARATH Auxin response factor OS=Arabidops...  51.2    1e-08
+tr|A0A654EFW1|A0A654EFW1_ARATH Uncharacterized protein OS=Arabido...  50.8    2e-08
+tr|A0A178WIM1|A0A178WIM1_ARATH Auxin response factor OS=Arabidops...  50.8    2e-08
+tr|A0A1P8B1S1|A0A1P8B1S1_ARATH Auxin response factor OS=Arabidops...  49.3    6e-08
+tr|C0SV66|C0SV66_ARATH Auxin response factor (Fragment) OS=Arabid...  49.3    6e-08
+tr|A0A384K881|A0A384K881_ARATH Auxin response factor OS=Arabidops...  49.3    6e-08
+sp|Q9SKN5|ARFJ_ARATH Auxin response factor 10 OS=Arabidopsis thal...  49.3    6e-08
+tr|A0A5S9X282|A0A5S9X282_ARATH Auxin response factor OS=Arabidops...  49.3    6e-08
+tr|A0A5S9XUB7|A0A5S9XUB7_ARATH Auxin response factor OS=Arabidops...  48.5    1e-07
+tr|A0A178W3M7|A0A178W3M7_ARATH Auxin-responsive protein OS=Arabid...  47.8    2e-07
+tr|A0A654F0L7|A0A654F0L7_ARATH Auxin response factor OS=Arabidops...  42.7    1e-05
+tr|A0A1P8AU56|A0A1P8AU56_ARATH Auxin response factor OS=Arabidops...  42.7    1e-05
+tr|A0A5S9WV95|A0A5S9WV95_ARATH Auxin response factor OS=Arabidops...  42.7    2e-05
+tr|A0A178WP26|A0A178WP26_ARATH Auxin response factor OS=Arabidops...  42.7    2e-05
+sp|Q84WU6|ARFQ_ARATH Auxin response factor 17 OS=Arabidopsis thal...  42.7    2e-05
+tr|A0A7G2E3R5|A0A7G2E3R5_ARATH Auxin response factor OS=Arabidops...  42.7    2e-05
+tr|A0A178WR63|A0A178WR63_ARATH Auxin response factor OS=Arabidops...  42.7    2e-05
+tr|A0A7G2E1X0|A0A7G2E1X0_ARATH Auxin response factor OS=Arabidops...  34.7    0.009
+tr|Q9SLN3|Q9SLN3_ARATH Putative WD-40 repeat protein (Fragment) O...  27.7    3.4  
+tr|A0A384KA14|A0A384KA14_ARATH Bromo domain-containing protein OS...  27.3    3.7  
+tr|A0A178W3E8|A0A178W3E8_ARATH WD40 domain-containing protein OS=...  27.3    3.7  
+tr|A0A7G2EEP7|A0A7G2EEP7_ARATH (thale cress) hypothetical protein...  27.3    3.7  
+tr|A0A7G2EHM1|A0A7G2EHM1_ARATH (thale cress) hypothetical protein...  27.3    3.7  
+tr|F4IL43|F4IL43_ARATH WD40 domain-containing protein OS=Arabidop...  27.3    3.7  
+tr|A0A7G2EEE3|A0A7G2EEE3_ARATH (thale cress) hypothetical protein...  27.3    3.8  
+tr|Q8L7M8|Q8L7M8_ARATH Putative WD-40 repeat protein OS=Arabidops...  27.3    3.8  
+tr|F4IL44|F4IL44_ARATH WD40 domain-containing protein OS=Arabidop...  27.3    3.8  
+tr|A0A5S9X7R9|A0A5S9X7R9_ARATH Bromo domain-containing protein OS...  27.3    3.8  
+tr|A0A654F2R3|A0A654F2R3_ARATH Bromo domain-containing protein OS...  27.3    3.8  
+tr|Q9FGX4|Q9FGX4_ARATH WD-40 repeat protein-like OS=Arabidopsis t...  26.6    7.4  
+tr|A0A7G2FHY8|A0A7G2FHY8_ARATH (thale cress) hypothetical protein...  26.6    7.4  
+tr|A0A654G9G5|A0A654G9G5_ARATH Bromo domain-containing protein OS...  26.6    7.4  
+tr|A0A178UHT9|A0A178UHT9_ARATH Bromo domain-containing protein OS...  26.6    7.4  
+tr|F4K639|F4K639_ARATH WD40/YVTN repeat and Bromo-WDR9-I-like dom...  26.6    7.4  
+tr|A0A5S9YCR6|A0A5S9YCR6_ARATH Bromo domain-containing protein OS...  26.6    7.6  
+tr|A0A1P8AZR4|A0A1P8AZR4_ARATH WD40 domain-containing protein OS=...  26.6    8.8  
+tr|A0A384L4J4|A0A384L4J4_ARATH Bromo domain-containing protein OS...  26.6    8.8  
+tr|A0A1P8AZS1|A0A1P8AZS1_ARATH WD40 domain-containing protein OS=...  26.6    8.8  
+
+
+>tr|A0A654EE38|A0A654EE38_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3074 PE=3 SV=1
+Length=935
+
+ Score = 164 bits (414),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 77/77 (100%), Positives = 77/77 (100%), Gaps = 0/77 (0%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN
+Sbjct  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           KEVDAHIPNYPSLHPQL
+Sbjct  61  KEVDAHIPNYPSLHPQL  77
+
+
+>sp|Q9ZTX8|ARFF_ARATH Auxin response factor 6 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF6 PE=1 SV=2
+Length=935
+
+ Score = 164 bits (414),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 77/77 (100%), Positives = 77/77 (100%), Gaps = 0/77 (0%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN
+Sbjct  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           KEVDAHIPNYPSLHPQL
+Sbjct  61  KEVDAHIPNYPSLHPQL  77
+
+
+>tr|A0A5S9WDQ8|A0A5S9WDQ8_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS2983 PE=3 SV=1
+Length=935
+
+ Score = 163 bits (413),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 77/77 (100%), Positives = 77/77 (100%), Gaps = 0/77 (0%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN
+Sbjct  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           KEVDAHIPNYPSLHPQL
+Sbjct  61  KEVDAHIPNYPSLHPQL  77
+
+
+>tr|A0A7G2DXI1|A0A7G2DXI1_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS2540 PE=3 SV=1
+Length=820
+
+ Score = 130 bits (327),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 61/61 (100%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQ  76
+           GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQ
+Sbjct  2   GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQ  61
+
+Query  77  L  77
+           L
+Sbjct  62  L  62
+
+
+>tr|A0A6B9KUT7|A0A6B9KUT7_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=ARF8 PE=2 SV=1
+Length=801
+
+ Score = 120 bits (300),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 61/77 (79%), Positives = 65/77 (84%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+LS++G   Q HE  GEK  LNSELWHACAGPLVSLP  GSRVVYFPQGHSEQVAA+TN
+Sbjct  1   MKLSTSGLGQQGHE--GEK-CLNSELWHACAGPLVSLPSSGSRVVYFPQGHSEQVAATTN  57
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           KEVD HIPNYPSL PQL
+Sbjct  58  KEVDGHIPNYPSLPPQL  74
+
+
+>tr|A0A5S9Y8N3|A0A5S9Y8N3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS23684 PE=3 SV=1
+Length=811
+
+ Score = 120 bits (300),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 61/77 (79%), Positives = 65/77 (84%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+LS++G   Q HE  GEK  LNSELWHACAGPLVSLP  GSRVVYFPQGHSEQVAA+TN
+Sbjct  1   MKLSTSGLGQQGHE--GEK-CLNSELWHACAGPLVSLPSSGSRVVYFPQGHSEQVAATTN  57
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           KEVD HIPNYPSL PQL
+Sbjct  58  KEVDGHIPNYPSLPPQL  74
+
+
+>tr|A0A178UFA9|A0A178UFA9_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At5g33990 PE=3 SV=1
+Length=811
+
+ Score = 119 bits (299),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 61/77 (79%), Positives = 65/77 (84%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+LS++G   Q HE  GEK  LNSELWHACAGPLVSLP  GSRVVYFPQGHSEQVAA+TN
+Sbjct  1   MKLSTSGLGQQGHE--GEK-CLNSELWHACAGPLVSLPSSGSRVVYFPQGHSEQVAATTN  57
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           KEVD HIPNYPSL PQL
+Sbjct  58  KEVDGHIPNYPSLPPQL  74
+
+
+>sp|Q9FGV1|ARFH_ARATH Auxin response factor 8 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF8 PE=1 SV=2
+Length=811
+
+ Score = 119 bits (299),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 61/77 (79%), Positives = 65/77 (84%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+LS++G   Q HE  GEK  LNSELWHACAGPLVSLP  GSRVVYFPQGHSEQVAA+TN
+Sbjct  1   MKLSTSGLGQQGHE--GEK-CLNSELWHACAGPLVSLPSSGSRVVYFPQGHSEQVAATTN  57
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           KEVD HIPNYPSL PQL
+Sbjct  58  KEVDGHIPNYPSLPPQL  74
+
+
+>tr|A0A178WP07|A0A178WP07_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g20170 PE=3 SV=1
+Length=1083
+
+ Score = 100 bits (249),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 52/77 (68%), Positives = 60/77 (78%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+  S GF P  +E  GEK+ +NS+LWHACAGPLVSLPPVGS VVYFPQGHSEQVAAS  
+Sbjct  1   MKAPSNGFLPSSNE--GEKKPINSQLWHACAGPLVSLPPVGSLVVYFPQGHSEQVAASMQ  58
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           K+ D  IPNYP+L  +L
+Sbjct  59  KQTD-FIPNYPNLPSKL  74
+
+
+>tr|A0A7G2DWI1|A0A7G2DWI1_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS1668 PE=3 SV=1
+Length=1058
+
+ Score = 100 bits (249),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 52/77 (68%), Positives = 60/77 (78%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+  S GF P  +E  GEK+ +NS+LWHACAGPLVSLPPVGS VVYFPQGHSEQVAAS  
+Sbjct  1   MKAPSNGFLPSSNE--GEKKPINSQLWHACAGPLVSLPPVGSLVVYFPQGHSEQVAASMQ  58
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           K+ D  IPNYP+L  +L
+Sbjct  59  KQTD-FIPNYPNLPSKL  74
+
+
+>sp|Q8RYC8|ARFS_ARATH Auxin response factor 19 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF19 PE=1 SV=2
+Length=1086
+
+ Score = 100 bits (249),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 52/77 (68%), Positives = 60/77 (78%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+  S GF P  +E  GEK+ +NS+LWHACAGPLVSLPPVGS VVYFPQGHSEQVAAS  
+Sbjct  1   MKAPSNGFLPSSNE--GEKKPINSQLWHACAGPLVSLPPVGSLVVYFPQGHSEQVAASMQ  58
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           K+ D  IPNYP+L  +L
+Sbjct  59  KQTD-FIPNYPNLPSKL  74
+
+
+>tr|A0A654EB75|A0A654EB75_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS2059 PE=3 SV=1
+Length=1084
+
+ Score = 100 bits (249),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 52/77 (68%), Positives = 60/77 (78%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+  S GF P  +E  GEK+ +NS+LWHACAGPLVSLPPVGS VVYFPQGHSEQVAAS  
+Sbjct  1   MKAPSNGFLPSSNE--GEKKPINSQLWHACAGPLVSLPPVGSLVVYFPQGHSEQVAASMQ  58
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           K+ D  IPNYP+L  +L
+Sbjct  59  KQTD-FIPNYPNLPSKL  74
+
+
+>tr|A0A5S9V4T5|A0A5S9V4T5_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS1973 PE=3 SV=1
+Length=1090
+
+ Score = 100 bits (249),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 52/77 (68%), Positives = 60/77 (78%), Gaps = 3/77 (4%)
+
+Query  1   MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+           M+  S GF P  +E  GEK+ +NS+LWHACAGPLVSLPPVGS VVYFPQGHSEQVAAS  
+Sbjct  1   MKAPSNGFLPSSNE--GEKKPINSQLWHACAGPLVSLPPVGSLVVYFPQGHSEQVAASMQ  58
+
+Query  61  KEVDAHIPNYPSLHPQL  77
+           K+ D  IPNYP+L  +L
+Sbjct  59  KQTD-FIPNYPNLPSKL  74
+
+
+>sp|P93022|ARFG_ARATH Auxin response factor 7 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF7 PE=1 SV=2
+Length=1164
+
+ Score = 97.8 bits (242),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/74 (68%), Positives = 58/74 (78%), Gaps = 3/74 (4%)
+
+Query  4   SSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEV  63
+           SS G +P P  V GE+R +NSELWHACAGPL+SLPP GS VVYFPQGHSEQVAAS  K+ 
+Sbjct  5   SSNGVSPNP--VEGERRNINSELWHACAGPLISLPPAGSLVVYFPQGHSEQVAASMQKQT  62
+
+Query  64  DAHIPNYPSLHPQL  77
+           D  IP+YP+L  +L
+Sbjct  63  D-FIPSYPNLPSKL  75
+
+
+>tr|F4K5M5|F4K5M5_ARATH Auxin response factor OS=Arabidopsis thaliana 
+OX=3702 GN=NPH4 PE=1 SV=1
+Length=1150
+
+ Score = 97.8 bits (242),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/74 (68%), Positives = 58/74 (78%), Gaps = 3/74 (4%)
+
+Query  4   SSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEV  63
+           SS G +P P  V GE+R +NSELWHACAGPL+SLPP GS VVYFPQGHSEQVAAS  K+ 
+Sbjct  5   SSNGVSPNP--VEGERRNINSELWHACAGPLISLPPAGSLVVYFPQGHSEQVAASMQKQT  62
+
+Query  64  DAHIPNYPSLHPQL  77
+           D  IP+YP+L  +L
+Sbjct  63  D-FIPSYPNLPSKL  75
+
+
+>tr|A0A5S9Y682|A0A5S9Y682_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS22758 PE=3 SV=1
+Length=1167
+
+ Score = 97.8 bits (242),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/74 (68%), Positives = 58/74 (78%), Gaps = 3/74 (4%)
+
+Query  4   SSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEV  63
+           SS G +P P  V GE+R +NSELWHACAGPL+SLPP GS VVYFPQGHSEQVAAS  K+ 
+Sbjct  5   SSNGVSPNP--VEGERRNINSELWHACAGPLISLPPAGSLVVYFPQGHSEQVAASMQKQT  62
+
+Query  64  DAHIPNYPSLHPQL  77
+           D  IP+YP+L  +L
+Sbjct  63  D-FIPSYPNLPSKL  75
+
+
+>tr|A0A178URD8|A0A178URD8_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At5g20710 PE=3 SV=1
+Length=1170
+
+ Score = 97.8 bits (242),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/74 (68%), Positives = 58/74 (78%), Gaps = 3/74 (4%)
+
+Query  4   SSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEV  63
+           SS G +P P  V GE+R +NSELWHACAGPL+SLPP GS VVYFPQGHSEQVAAS  K+ 
+Sbjct  5   SSNGVSPNP--VEGERRNINSELWHACAGPLISLPPAGSLVVYFPQGHSEQVAASMQKQT  62
+
+Query  64  DAHIPNYPSLHPQL  77
+           D  IP+YP+L  +L
+Sbjct  63  D-FIPSYPNLPSKL  75
+
+
+>tr|A0A7G2F942|A0A7G2F942_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS19692 PE=3 SV=1
+Length=1166
+
+ Score = 97.8 bits (242),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/74 (68%), Positives = 58/74 (78%), Gaps = 3/74 (4%)
+
+Query  4   SSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEV  63
+           SS G +P P  V GE+R +NSELWHACAGPL+SLPP GS VVYFPQGHSEQVAAS  K+ 
+Sbjct  5   SSNGVSPNP--VEGERRNINSELWHACAGPLISLPPAGSLVVYFPQGHSEQVAASMQKQT  62
+
+Query  64  DAHIPNYPSLHPQL  77
+           D  IP+YP+L  +L
+Sbjct  63  D-FIPSYPNLPSKL  75
+
+
+>tr|A0A654G3B4|A0A654G3B4_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS22872 PE=3 SV=1
+Length=1170
+
+ Score = 97.8 bits (242),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 50/74 (68%), Positives = 58/74 (78%), Gaps = 3/74 (4%)
+
+Query  4   SSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEV  63
+           SS G +P P  V GE+R +NSELWHACAGPL+SLPP GS VVYFPQGHSEQVAAS  K+ 
+Sbjct  5   SSNGVSPNP--VEGERRNINSELWHACAGPLISLPPAGSLVVYFPQGHSEQVAASMQKQT  62
+
+Query  64  DAHIPNYPSLHPQL  77
+           D  IP+YP+L  +L
+Sbjct  63  D-FIPSYPNLPSKL  75
+
+
+>tr|A0A178W993|A0A178W993_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g20820 PE=3 SV=1
+Length=902
+
+ Score = 85.5 bits (210),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 44/59 (75%), Gaps = 0/59 (0%)
+
+Query  19   KRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+            K V+NSELWHACAGPLV LP VGS V YF QGHSEQVA ST +     +PNYP+L  QL
+Sbjct  48   KPVINSELWHACAGPLVCLPQVGSLVYYFSQGHSEQVAVSTRRSATTQVPNYPNLPSQL  106
+
+
+>sp|P93024|ARFE_ARATH Auxin response factor 5 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF5 PE=1 SV=3
+Length=902
+
+ Score = 85.5 bits (210),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 44/59 (75%), Gaps = 0/59 (0%)
+
+Query  19   KRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+            K V+NSELWHACAGPLV LP VGS V YF QGHSEQVA ST +     +PNYP+L  QL
+Sbjct  48   KPVINSELWHACAGPLVCLPQVGSLVYYFSQGHSEQVAVSTRRSATTQVPNYPNLPSQL  106
+
+
+>tr|A0A1P8AQ60|A0A1P8AQ60_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=MP PE=1 SV=1
+Length=891
+
+ Score = 85.5 bits (210),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 44/59 (75%), Gaps = 0/59 (0%)
+
+Query  19  KRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+           K V+NSELWHACAGPLV LP VGS V YF QGHSEQVA ST +     +PNYP+L  QL
+Sbjct  37  KPVINSELWHACAGPLVCLPQVGSLVYYFSQGHSEQVAVSTRRSATTQVPNYPNLPSQL  95
+
+
+>tr|F4K536|F4K536_ARATH Auxin response factor OS=Arabidopsis thaliana 
+OX=3702 GN=ARF2 PE=1 SV=1
+Length=853
+
+ Score = 67.8 bits (164),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/50 (60%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  21   VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+             L  ELWHACAGPLV++P    RV YFPQGH EQV ASTN+  +  +P Y
+Sbjct  57   ALYRELWHACAGPLVTVPRQDDRVFYFPQGHIEQVEASTNQAAEQQMPLY  106
+
+
+>tr|A0A654GD70|A0A654GD70_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS26507 PE=3 SV=1
+Length=859
+
+ Score = 67.8 bits (164),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/50 (60%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  21   VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+             L  ELWHACAGPLV++P    RV YFPQGH EQV ASTN+  +  +P Y
+Sbjct  57   ALYRELWHACAGPLVTVPRQDDRVFYFPQGHIEQVEASTNQAAEQQMPLY  106
+
+
+>sp|Q94JM3|ARFB_ARATH Auxin response factor 2 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF2 PE=1 SV=2
+Length=859
+
+ Score = 67.8 bits (164),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/50 (60%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  21   VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+             L  ELWHACAGPLV++P    RV YFPQGH EQV ASTN+  +  +P Y
+Sbjct  57   ALYRELWHACAGPLVTVPRQDDRVFYFPQGHIEQVEASTNQAAEQQMPLY  106
+
+
+>tr|A0A5S9YGE7|A0A5S9YGE7_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS26329 PE=3 SV=1
+Length=859
+
+ Score = 67.8 bits (164),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/50 (60%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  21   VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+             L  ELWHACAGPLV++P    RV YFPQGH EQV ASTN+  +  +P Y
+Sbjct  57   ALYRELWHACAGPLVTVPRQDDRVFYFPQGHIEQVEASTNQAAEQQMPLY  106
+
+
+>tr|A0A178UUC3|A0A178UUC3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At5g61500 PE=3 SV=1
+Length=859
+
+ Score = 67.8 bits (164),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/50 (60%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  21   VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+             L  ELWHACAGPLV++P    RV YFPQGH EQV ASTN+  +  +P Y
+Sbjct  57   ALYRELWHACAGPLVTVPRQDDRVFYFPQGHIEQVEASTNQAAEQQMPLY  106
+
+
+>tr|A0A178VRP5|A0A178VRP5_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At2g44180 PE=3 SV=1
+Length=601
+
+ Score = 66.6 bits (161),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 31/50 (62%), Positives = 36/50 (72%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKE-VDAHIPNY  70
+           L +ELW ACAGPLV +P  G RV YFPQGH EQ+ ASTN+  VD  IP +
+Sbjct  18  LYTELWKACAGPLVEVPRYGERVFYFPQGHMEQLVASTNQGVVDQEIPVF  67
+
+
+>sp|Q9ZPY6|ARFK_ARATH Auxin response factor 11 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF11 PE=2 SV=3
+Length=622
+
+ Score = 66.6 bits (161),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 31/50 (62%), Positives = 36/50 (72%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKE-VDAHIPNY  70
+           L +ELW ACAGPLV +P  G RV YFPQGH EQ+ ASTN+  VD  IP +
+Sbjct  39  LYTELWKACAGPLVEVPRYGERVFYFPQGHMEQLVASTNQGVVDQEIPVF  88
+
+
+>tr|A0A5S9X7H4|A0A5S9X7H4_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS11180 PE=3 SV=1
+Length=601
+
+ Score = 66.6 bits (161),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 31/50 (62%), Positives = 36/50 (72%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKE-VDAHIPNY  70
+           L +ELW ACAGPLV +P  G RV YFPQGH EQ+ ASTN+  VD  IP +
+Sbjct  18  LYTELWKACAGPLVEVPRYGERVFYFPQGHMEQLVASTNQGVVDQEIPVF  67
+
+
+>tr|A0A7G2EEI2|A0A7G2EEI2_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS9621 PE=3 SV=1
+Length=745
+
+ Score = 66.6 bits (161),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 31/50 (62%), Positives = 36/50 (72%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKE-VDAHIPNY  70
+           L +ELW ACAGPLV +P  G RV YFPQGH EQ+ ASTN+  VD  IP +
+Sbjct  18  LYTELWRACAGPLVEVPRYGERVFYFPQGHMEQLVASTNQGVVDQEIPVF  67
+
+
+>tr|A0A178WJ02|A0A178WJ02_ARATH ARF1 OS=Arabidopsis thaliana OX=3702 
+GN=AXX17_At1g52840 PE=3 SV=1
+Length=308
+
+ Score = 64.7 bits (156),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/49 (55%), Positives = 37/49 (76%), Gaps = 0/49 (0%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+           L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  19  LCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|F4ID31|F4ID31_ARATH Auxin response factor OS=Arabidopsis thaliana 
+OX=3702 GN=ARF1 PE=1 SV=1
+Length=660
+
+ Score = 64.3 bits (155),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|A0A5S9WNB3|A0A5S9WNB3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=At1g59750 PE=3 SV=1
+Length=662
+
+ Score = 64.3 bits (155),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|A0A7G2E508|A0A7G2E508_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS4199 PE=3 SV=1
+Length=662
+
+ Score = 64.3 bits (155),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|B9DGM9|B9DGM9_ARATH Auxin response factor OS=Arabidopsis thaliana 
+OX=3702 GN=At1g59750 PE=2 SV=1
+Length=665
+
+ Score = 63.9 bits (154),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|A0A654EJH5|A0A654EJH5_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS4954 PE=3 SV=1
+Length=665
+
+ Score = 63.9 bits (154),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>sp|Q8L7G0|ARFA_ARATH Auxin response factor 1 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF1 PE=1 SV=2
+Length=665
+
+ Score = 63.9 bits (154),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|A0A7G2E1X2|A0A7G2E1X2_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS4199 PE=3 SV=1
+Length=665
+
+ Score = 63.9 bits (154),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|A0A178WF94|A0A178WF94_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g52840 PE=3 SV=1
+Length=665
+
+ Score = 63.9 bits (154),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  21  VLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNY  70
+            L  ELWHACAGPLV+LP  G RV YFP+GH EQ+ AS ++ ++  +P++
+Sbjct  18  ALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSF  67
+
+
+>tr|A0A654EHJ5|A0A654EHJ5_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3731 PE=3 SV=1
+Length=282
+
+ Score = 61.6 bits (148),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 27/55 (49%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPN  69
+           V G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++   PN
+Sbjct  9   VDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPN  63
+
+
+>sp|Q9LP07|ARFW_ARATH Putative auxin response factor 23 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF23 PE=5 SV=2
+Length=222
+
+ Score = 60.8 bits (146),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 26/55 (47%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPN  69
+           + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++   PN
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPN  71
+
+
+>tr|A0A178W496|A0A178W496_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g39980 PE=3 SV=1
+Length=325
+
+ Score = 60.8 bits (146),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 26/55 (47%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPN  69
+           + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++   PN
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPN  71
+
+
+>tr|A0A5S9WJZ6|A0A5S9WJZ6_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3628 PE=3 SV=1
+Length=361
+
+ Score = 60.8 bits (146),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 26/55 (47%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPN  69
+           + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++   PN
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPN  71
+
+
+>sp|Q9LQE8|ARFN_ARATH Putative auxin response factor 14 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF14 PE=3 SV=2
+Length=605
+
+ Score = 60.1 bits (144),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 38/60 (63%), Gaps = 2/60 (3%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIP--NYPS  72
+           + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++   P  ++PS
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPICDFPS  76
+
+
+>tr|A0A178V7A7|A0A178V7A7_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At3g56130 PE=3 SV=1
+Length=602
+
+ Score = 60.1 bits (144),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 35/50 (70%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA-HIPNY  70
+           L +ELW  CAGPLV +P    RV YFPQGH EQ+ ASTN+ +++  IP +
+Sbjct  22  LYTELWKVCAGPLVEVPRAQERVFYFPQGHMEQLVASTNQGINSEEIPVF  71
+
+
+>sp|Q9C5W9|ARFR_ARATH Auxin response factor 18 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF18 PE=1 SV=1
+Length=602
+
+ Score = 60.1 bits (144),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 35/50 (70%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA-HIPNY  70
+           L +ELW  CAGPLV +P    RV YFPQGH EQ+ ASTN+ +++  IP +
+Sbjct  22  LYTELWKVCAGPLVEVPRAQERVFYFPQGHMEQLVASTNQGINSEEIPVF  71
+
+
+>tr|A0A5S9XN52|A0A5S9XN52_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS16440 PE=3 SV=1
+Length=602
+
+ Score = 60.1 bits (144),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 35/50 (70%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA-HIPNY  70
+           L +ELW  CAGPLV +P    RV YFPQGH EQ+ ASTN+ +++  IP +
+Sbjct  22  LYTELWKVCAGPLVEVPRAQERVFYFPQGHMEQLVASTNQGINSEEIPVF  71
+
+
+>tr|A0A7G2E1P3|A0A7G2E1P3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS2974 PE=3 SV=1
+Length=698
+
+ Score = 60.1 bits (144),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 38/60 (63%), Gaps = 2/60 (3%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIP--NYPS  72
+           + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++   P  ++PS
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPICDFPS  76
+
+
+>tr|A0A7G2EWT7|A0A7G2EWT7_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS14249 PE=3 SV=1
+Length=750
+
+ Score = 60.1 bits (144),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 35/50 (70%), Gaps = 1/50 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA-HIPNY  70
+           L +ELW  CAGPLV +P    RV YFPQGH EQ+ ASTN+ +++  IP +
+Sbjct  22  LYTELWKVCAGPLVEVPRAQERVFYFPQGHMEQLVASTNQGINSEEIPVF  71
+
+
+>tr|A0A5S9WIX7|A0A5S9WIX7_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3455 PE=3 SV=1
+Length=605
+
+ Score = 59.3 bits (142),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 25/54 (46%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIP  68
+           + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++   P
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQP  70
+
+
+>tr|A0A178WK87|A0A178WK87_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g36360 PE=3 SV=1
+Length=722
+
+ Score = 58.9 bits (141),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 24/50 (48%), Positives = 33/50 (66%), Gaps = 0/50 (0%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V AST +E++
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELN  66
+
+
+>tr|A0A654EH28|A0A654EH28_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3544 PE=3 SV=1
+Length=605
+
+ Score = 58.9 bits (141),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 37/60 (62%), Gaps = 2/60 (3%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIP--NYPS  72
+           + G K  +  +LW  CAGPL  +P +G  V YFPQGH E V AST +E++   P  ++PS
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKLGETVYYFPQGHIELVEASTREELNELQPICDFPS  76
+
+
+>tr|A0A1P8BF20|A0A1P8BF20_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=ARF4 PE=1 SV=1
+Length=764
+
+ Score = 57.0 bits (136),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 37/61 (61%), Gaps = 2/61 (3%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQ  76
+           G    + SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ
+Sbjct  33  GSASSIYSELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQ  90
+
+Query  77  L  77
+           +
+Sbjct  91  I  91
+
+
+>tr|A0A7G2FJJ2|A0A7G2FJJ2_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS22680 PE=3 SV=1
+Length=736
+
+ Score = 57.0 bits (136),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 37/61 (61%), Gaps = 2/61 (3%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQ  76
+           G    + SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ
+Sbjct  33  GSASSIYSELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQ  90
+
+Query  77  L  77
+           +
+Sbjct  91  I  91
+
+
+>tr|A0A7G2FHQ6|A0A7G2FHQ6_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS22680 PE=3 SV=1
+Length=737
+
+ Score = 57.0 bits (136),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 37/61 (61%), Gaps = 2/61 (3%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQ  76
+           G    + SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ
+Sbjct  33  GSASSIYSELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQ  90
+
+Query  77  L  77
+           +
+Sbjct  91  I  91
+
+
+>tr|A0A7G2EH18|A0A7G2EH18_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS8426 PE=3 SV=1
+Length=604
+
+ Score = 56.6 bits (135),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  25  ELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           ELWHACAGPL+SLP  GS V+YFPQGH EQ
+Sbjct  54  ELWHACAGPLISLPKRGSLVLYFPQGHLEQ  83
+
+
+>tr|A0A5S9X3R2|A0A5S9X3R2_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS9828 PE=3 SV=1
+Length=608
+
+ Score = 56.6 bits (135),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  25  ELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           ELWHACAGPL+SLP  GS V+YFPQGH EQ
+Sbjct  54  ELWHACAGPLISLPKRGSLVLYFPQGHLEQ  83
+
+
+>sp|O23661|ARFC_ARATH Auxin response factor 3 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF3 PE=1 SV=2
+Length=608
+
+ Score = 56.6 bits (135),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  25  ELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           ELWHACAGPL+SLP  GS V+YFPQGH EQ
+Sbjct  54  ELWHACAGPLISLPKRGSLVLYFPQGHLEQ  83
+
+
+>tr|A0A178VTM6|A0A178VTM6_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At2g30410 PE=3 SV=1
+Length=608
+
+ Score = 56.6 bits (135),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  25  ELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           ELWHACAGPL+SLP  GS V+YFPQGH EQ
+Sbjct  54  ELWHACAGPLISLPKRGSLVLYFPQGHLEQ  83
+
+
+>tr|A0A654GCU3|A0A654GCU3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS26348 PE=3 SV=1
+Length=788
+
+ Score = 56.6 bits (135),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/54 (56%), Positives = 35/54 (65%), Gaps = 2/54 (4%)
+
+Query  24   SELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+            SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ+
+Sbjct  64   SELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQI  115
+
+
+>sp|Q9ZTX9|ARFD_ARATH Auxin response factor 4 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF4 PE=1 SV=1
+Length=788
+
+ Score = 56.6 bits (135),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/54 (56%), Positives = 35/54 (65%), Gaps = 2/54 (4%)
+
+Query  24   SELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+            SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ+
+Sbjct  64   SELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQI  115
+
+
+>tr|A0A5S9YFY0|A0A5S9YFY0_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS26170 PE=3 SV=1
+Length=790
+
+ Score = 56.6 bits (135),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/54 (56%), Positives = 35/54 (65%), Gaps = 2/54 (4%)
+
+Query  24   SELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+            SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ+
+Sbjct  66   SELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQI  117
+
+
+>tr|A0A178ULQ0|A0A178ULQ0_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At5g59890 PE=3 SV=1
+Length=788
+
+ Score = 56.6 bits (135),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/54 (56%), Positives = 35/54 (65%), Gaps = 2/54 (4%)
+
+Query  24   SELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+            SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ+
+Sbjct  64   SELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQI  115
+
+
+>tr|A0A178UKM2|A0A178UKM2_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At5g59890 PE=3 SV=1
+Length=789
+
+ Score = 56.6 bits (135),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/54 (56%), Positives = 35/54 (65%), Gaps = 2/54 (4%)
+
+Query  24   SELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSLHPQL  77
+            SELWHACAGPL  LP  G+ VVYFPQGH EQ  A  +      IP +  L+PQ+
+Sbjct  64   SELWHACAGPLTCLPKKGNVVVYFPQGHLEQ-DAMVSYSSPLEIPKF-DLNPQI  115
+
+
+>tr|C0Z2C7|C0Z2C7_ARATH Auxin response factor OS=Arabidopsis thaliana 
+OX=3702 GN=At4g23980 PE=2 SV=1
+Length=297
+
+ Score = 55.8 bits (133),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 30/43 (70%), Gaps = 1/43 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           L  ELW  CAGPLV +P    RV YFPQGH EQ+ AST ++VD
+Sbjct  9   LYDELWKLCAGPLVDVPQAQERVYYFPQGHMEQLEAST-QQVD  50
+
+
+>tr|A0A178W773|A0A178W773_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g35160 PE=3 SV=1
+Length=593
+
+ Score = 55.8 bits (133),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V  ST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYVYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVETSTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A5S9WLK3|A0A5S9WLK3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3367 PE=3 SV=1
+Length=593
+
+ Score = 55.8 bits (133),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V  ST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYVYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVETSTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|C0SUZ1|C0SUZ1_ARATH Auxin response factor (Fragment) OS=Arabidopsis 
+thaliana OX=3702 GN=At1g34310 PE=2 SV=1
+Length=593
+
+ Score = 55.8 bits (133),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V  ST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYVYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVETSTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A654EGG9|A0A654EGG9_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3459 PE=3 SV=1
+Length=593
+
+ Score = 55.8 bits (133),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V  ST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYVYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVETSTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>sp|Q9XID4|ARFL_ARATH Auxin response factor 12 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF12 PE=2 SV=2
+Length=593
+
+ Score = 55.8 bits (133),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G +V YFPQGH E V  ST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYVYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVETSTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A654FS80|A0A654FS80_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS19132 PE=3 SV=1
+Length=638
+
+ Score = 55.5 bits (132),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 30/43 (70%), Gaps = 1/43 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           L  ELW  CAGPLV +P    RV YFPQGH EQ+ AST ++VD
+Sbjct  9   LYDELWKLCAGPLVDVPQAQERVYYFPQGHMEQLEAST-QQVD  50
+
+
+>tr|A0A178V403|A0A178V403_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At4g27760 PE=3 SV=1
+Length=638
+
+ Score = 55.5 bits (132),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 30/43 (70%), Gaps = 1/43 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           L  ELW  CAGPLV +P    RV YFPQGH EQ+ AST ++VD
+Sbjct  9   LYDELWKLCAGPLVDVPQAQERVYYFPQGHMEQLEAST-QQVD  50
+
+
+>sp|Q9XED8|ARFI_ARATH Auxin response factor 9 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF9 PE=1 SV=1
+Length=638
+
+ Score = 55.5 bits (132),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 30/43 (70%), Gaps = 1/43 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           L  ELW  CAGPLV +P    RV YFPQGH EQ+ AST ++VD
+Sbjct  9   LYDELWKLCAGPLVDVPQAQERVYYFPQGHMEQLEAST-QQVD  50
+
+
+>tr|A0A7G2F068|A0A7G2F068_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS16497 PE=3 SV=1
+Length=628
+
+ Score = 55.5 bits (132),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 30/43 (70%), Gaps = 1/43 (2%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           L  ELW  CAGPLV +P    RV YFPQGH EQ+ AST ++VD
+Sbjct  9   LYDELWKLCAGPLVDVPQAQERVYYFPQGHMEQLEAST-QQVD  50
+
+
+>tr|A0A178V3T9|A0A178V3T9_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At4g34500 PE=3 SV=1
+Length=669
+
+ Score = 55.1 bits (131),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 21/38 (55%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           G ++ L+ +LWHACAG +V +PP+ S+V YFPQGH+E 
+Sbjct  11  GTEKGLDPQLWHACAGGMVRMPPMNSKVFYFPQGHAEN  48
+
+
+>tr|A0A654EGH8|A0A654EGH8_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3469 PE=3 SV=1
+Length=598
+
+ Score = 55.1 bits (131),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 37/63 (59%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G +V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSSIIDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGNIELVEASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LKP  70
+
+
+>tr|A0A7G2DY53|A0A7G2DY53_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS2906 PE=3 SV=1
+Length=541
+
+ Score = 55.1 bits (131),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 28/63 (44%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P VG  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKVGENVYYFPQGNIELVEASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A5S9XX90|A0A5S9XX90_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS19699 PE=3 SV=1
+Length=670
+
+ Score = 55.1 bits (131),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 21/38 (55%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           G ++ L+ +LWHACAG +V +PP+ S+V YFPQGH+E 
+Sbjct  11  GTEKGLDPQLWHACAGGMVRMPPMNSKVFYFPQGHAEN  48
+
+
+>sp|Q93YR9|ARFP_ARATH Auxin response factor 16 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF16 PE=1 SV=1
+Length=670
+
+ Score = 55.1 bits (131),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 21/38 (55%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           G ++ L+ +LWHACAG +V +PP+ S+V YFPQGH+E 
+Sbjct  11  GTEKGLDPQLWHACAGGMVRMPPMNSKVFYFPQGHAEN  48
+
+
+>tr|A0A7G2F1Q0|A0A7G2F1Q0_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS17091 PE=3 SV=1
+Length=663
+
+ Score = 55.1 bits (131),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 21/38 (55%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  17  GEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQ  54
+           G ++ L+ +LWHACAG +V +PP+ S+V YFPQGH+E 
+Sbjct  4   GTEKGLDPQLWHACAGGMVRMPPMNSKVFYFPQGHAEN  41
+
+
+>tr|A0A178WJK3|A0A178WJK3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g35310 PE=3 SV=1
+Length=574
+
+ Score = 55.1 bits (131),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 37/63 (59%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G +V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGNIELVEASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LKP  70
+
+
+>sp|Q9C8N7|ARFV_ARATH Auxin response factor 22 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF22 PE=2 SV=2
+Length=598
+
+ Score = 54.7 bits (130),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 37/63 (59%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G ++ YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGEKIYYFPQGNIELVEASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LKP  70
+
+
+>tr|A0A7G2DY49|A0A7G2DY49_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS2895 PE=3 SV=1
+Length=579
+
+ Score = 54.7 bits (130),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQGH E V  ST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYVYEQLWKLCAGPLCDIPKLGENVYYFPQGHIELVETSTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A5S9WLS8|A0A5S9WLS8_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3377 PE=3 SV=1
+Length=598
+
+ Score = 54.7 bits (130),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVEASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LKP  70
+
+
+>sp|Q9C7I9|ARFT_ARATH Auxin response factor 20 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF20 PE=2 SV=3
+Length=590
+
+ Score = 54.7 bits (130),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVDASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A2H1ZEC0|A0A2H1ZEC0_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=ARF20 PE=1 SV=1
+Length=592
+
+ Score = 54.7 bits (130),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVDASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A7G2DV23|A0A7G2DV23_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS2951 PE=3 SV=1
+Length=751
+
+ Score = 54.3 bits (129),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9    NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+            N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  182  NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVDASTREELNE  241
+
+Query  66   HIP  68
+              P
+Sbjct  242  LQP  244
+
+
+>tr|A0A5S9WIV2|A0A5S9WIV2_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3425 PE=3 SV=1
+Length=606
+
+ Score = 54.3 bits (129),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVDASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A7G2E166|A0A7G2E166_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS2904 PE=3 SV=1
+Length=579
+
+ Score = 54.3 bits (129),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVEASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LKP  70
+
+
+>sp|Q9FX25|ARFM_ARATH Auxin response factor 13 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF13 PE=2 SV=3
+Length=621
+
+ Score = 53.9 bits (128),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 29/60 (48%), Positives = 35/60 (58%), Gaps = 2/60 (3%)
+
+Query  9   NPQPH-EVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHI  67
+           N QP   V   K  +  +LW+ CAGPL  LP  G +V YFPQGH E +  ST  E+D HI
+Sbjct  8   NAQPELSVDITKTYMYEKLWNICAGPLCVLPKPGEKVYYFPQGHIELIENSTRDELD-HI  66
+
+
+>tr|F4HT52|F4HT52_ARATH Auxin response factor OS=Arabidopsis thaliana 
+OX=3702 GN=ARF13 PE=3 SV=1
+Length=546
+
+ Score = 53.9 bits (128),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/57 (47%), Positives = 33/57 (58%), Gaps = 1/57 (2%)
+
+Query  9   NPQPH-EVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP   V   K  +  +LW+ CAGPL  LP  G +V YFPQGH E +  ST  E+D
+Sbjct  8   NAQPELSVDITKTYMYEKLWNICAGPLCVLPKPGEKVYYFPQGHIELIENSTRDELD  64
+
+
+>sp|Q9C8N9|ARFU_ARATH Putative auxin response factor 21 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF21 PE=3 SV=2
+Length=606
+
+ Score = 53.9 bits (128),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPKLSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVQASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A5S9WIN4|A0A5S9WIN4_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3356 PE=3 SV=1
+Length=535
+
+ Score = 53.5 bits (127),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 36/60 (60%), Gaps = 5/60 (8%)
+
+Query  9   NPQPHEVTG----EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP E++G     K  +  +LW+ CAGPL  LP  G +V YFPQGH E +  ST  E+D
+Sbjct  2   NAQP-ELSGIIDITKTYMYEKLWNICAGPLCVLPKPGEKVYYFPQGHIELIENSTRDELD  60
+
+
+>tr|A0A654EFH6|A0A654EFH6_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3541 PE=3 SV=1
+Length=593
+
+ Score = 53.5 bits (127),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 5/64 (8%)
+
+Query  9   NPQPHEVTG----EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP E++G     K  +  +LW  CAGPL  +P +G +V YFPQG+ E V AST +E++
+Sbjct  8   NAQP-ELSGIIDRSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGNIELVEASTREELN  66
+
+Query  65  AHIP  68
+              P
+Sbjct  67  ELQP  70
+
+
+>tr|A0A654EGW4|A0A654EGW4_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3472 PE=3 SV=1
+Length=555
+
+ Score = 53.5 bits (127),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 24/54 (44%), Positives = 32/54 (59%), Gaps = 0/54 (0%)
+
+Query  15  VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIP  68
+           + G K  +  +LW  CAGPL  +P VG  V YF QG+ E V AST +E++   P
+Sbjct  17  IDGSKSYMYEQLWKLCAGPLCDIPKVGENVYYFLQGNIELVQASTREELNELQP  70
+
+
+>tr|A0A5S9WLN3|A0A5S9WLN3_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3452 PE=3 SV=1
+Length=593
+
+ Score = 53.5 bits (127),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 5/64 (8%)
+
+Query  9   NPQPHEVTG----EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP E++G     K  +  +LW  CAGPL  +P +G +V YFPQG+ E V AST +E++
+Sbjct  8   NAQP-ELSGIIDRSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGNIELVEASTREELN  66
+
+Query  65  AHIP  68
+              P
+Sbjct  67  ELQP  70
+
+
+>sp|Q9LQE3|ARFO_ARATH Putative auxin response factor 15 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF15 PE=3 SV=2
+Length=593
+
+ Score = 53.5 bits (127),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 5/64 (8%)
+
+Query  9   NPQPHEVTG----EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP E++G     K  +  +LW  CAGPL  +P +G +V YFPQG+ E V AST +E++
+Sbjct  8   NAQP-ELSGIIDRSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGNIELVEASTREELN  66
+
+Query  65  AHIP  68
+              P
+Sbjct  67  ELQP  70
+
+
+>tr|A0A7G2DYM9|A0A7G2DYM9_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS2972 PE=3 SV=1
+Length=582
+
+ Score = 53.1 bits (126),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 39/64 (61%), Gaps = 5/64 (8%)
+
+Query  9   NPQPHEVTG----EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP E++G     K  +  +LW  CAGPL  +P +G +V YFPQG+ E V AST +E++
+Sbjct  8   NAQP-ELSGIIDRSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGNIELVEASTREELN  66
+
+Query  65  AHIP  68
+              P
+Sbjct  67  ELQP  70
+
+
+>tr|A0A178W9V0|A0A178W9V0_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g36310 PE=3 SV=1
+Length=593
+
+ Score = 53.1 bits (126),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 38/64 (59%), Gaps = 5/64 (8%)
+
+Query  9   NPQPHEVTG----EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP E++G     K  +  +LW  CAGPL  +P  G +V YFPQG+ E V AST +E++
+Sbjct  8   NAQP-ELSGIIDRSKSYMYEQLWKLCAGPLCDIPKFGEKVYYFPQGNIELVEASTREELN  66
+
+Query  65  AHIP  68
+              P
+Sbjct  67  ELQP  70
+
+
+>tr|A0A178WHC9|A0A178WHC9_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g35340 PE=3 SV=1
+Length=526
+
+ Score = 52.0 bits (123),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P VG  V YF QG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWELCAGPLCDIPKVGENVYYFLQGNIELVQASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A5S9WLL9|A0A5S9WLL9_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS3377 PE=3 SV=1
+Length=606
+
+ Score = 51.6 bits (122),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +G  V YFPQG+ E   AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELDQASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A654EFB8|A0A654EFB8_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3513 PE=3 SV=1
+Length=606
+
+ Score = 51.2 bits (121),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/63 (41%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CA PL  +P +G  V YFPQG+ E V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAEPLCDIPKLGENVYYFPQGNIELVDASTREELNE  67
+
+Query  66  HIP  68
+             P
+Sbjct  68  LQP  70
+
+
+>tr|A0A654EFW1|A0A654EFW1_ARATH Uncharacterized protein OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS3448 PE=3 SV=1
+Length=485
+
+ Score = 50.8 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/60 (45%), Positives = 35/60 (58%), Gaps = 5/60 (8%)
+
+Query  9   NPQPHEVTG----EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           N QP E++G     K  +  +LW+ C GPL  LP  G +V YFPQGH E +  ST  E+D
+Sbjct  8   NAQP-ELSGIIDITKTYMYEKLWNICDGPLCVLPKPGEKVYYFPQGHIELIENSTRDELD  66
+
+
+>tr|A0A178WIM1|A0A178WIM1_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g35980 PE=3 SV=1
+Length=587
+
+ Score = 50.8 bits (120),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/50 (44%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  19  KRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIP  68
+           + +   +LW  CAGPL  +P +G  V YFPQG+ E V AST +E++   P
+Sbjct  4   RAICTEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVDASTREELNELQP  53
+
+
+>tr|A0A1P8B1S1|A0A1P8B1S1_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=ARF10 PE=1 SV=1
+Length=667
+
+ Score = 49.3 bits (116),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 33/56 (59%), Gaps = 4/56 (7%)
+
+Query  18  EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSL  73
+           +++ L+ +LWHACAG +V +P + S V YF QGH+E   A      D H P  P L
+Sbjct  3   QEKSLDPQLWHACAGSMVQIPSLNSTVFYFAQGHTEHAHAPP----DFHAPRVPPL  54
+
+
+>tr|C0SV66|C0SV66_ARATH Auxin response factor (Fragment) OS=Arabidopsis 
+thaliana OX=3702 GN=At2g28350 PE=2 SV=1
+Length=693
+
+ Score = 49.3 bits (116),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 33/56 (59%), Gaps = 4/56 (7%)
+
+Query  18  EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSL  73
+           +++ L+ +LWHACAG +V +P + S V YF QGH+E   A      D H P  P L
+Sbjct  3   QEKSLDPQLWHACAGSMVQIPSLNSTVFYFAQGHTEHAHAPP----DFHAPRVPPL  54
+
+
+>tr|A0A384K881|A0A384K881_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At2g24380 PE=3 SV=1
+Length=693
+
+ Score = 49.3 bits (116),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 33/56 (59%), Gaps = 4/56 (7%)
+
+Query  18  EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSL  73
+           +++ L+ +LWHACAG +V +P + S V YF QGH+E   A      D H P  P L
+Sbjct  3   QEKSLDPQLWHACAGSMVQIPSLNSTVFYFAQGHTEHAHAPP----DFHAPRVPPL  54
+
+
+>sp|Q9SKN5|ARFJ_ARATH Auxin response factor 10 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF10 PE=1 SV=1
+Length=693
+
+ Score = 49.3 bits (116),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 33/56 (59%), Gaps = 4/56 (7%)
+
+Query  18  EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSL  73
+           +++ L+ +LWHACAG +V +P + S V YF QGH+E   A      D H P  P L
+Sbjct  3   QEKSLDPQLWHACAGSMVQIPSLNSTVFYFAQGHTEHAHAPP----DFHAPRVPPL  54
+
+
+>tr|A0A5S9X282|A0A5S9X282_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS7915 PE=3 SV=1
+Length=693
+
+ Score = 49.3 bits (116),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 33/56 (59%), Gaps = 4/56 (7%)
+
+Query  18  EKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSL  73
+           +++ L+ +LWHACAG +V +P + S V YF QGH+E   A      D H P  P L
+Sbjct  3   QEKSLDPQLWHACAGSMVQIPSLNSTVFYFAQGHTEHAHAPP----DFHAPRVPPL  54
+
+
+>tr|A0A5S9XUB7|A0A5S9XUB7_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS18564 PE=3 SV=1
+Length=1360
+
+ Score = 48.5 bits (114),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 23/52 (44%), Positives = 29/52 (56%), Gaps = 4/52 (8%)
+
+Query  22  LNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDAHIPNYPSL  73
+           L+ +LWHA AG ++ +P V S+V YF QGH E   A      D H P  P L
+Sbjct  7   LDPQLWHASAGSMLHIPTVNSKVFYFAQGHFEHAHAPP----DFHAPRVPPL  54
+
+
+>tr|A0A178W3M7|A0A178W3M7_ARATH Auxin-responsive protein OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g35060 PE=3 SV=1
+Length=454
+
+ Score = 47.8 bits (112),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/40 (53%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  25  ELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVD  64
+           +LW+ CAGPL  L   G +V YFPQGH E +  ST  E+D
+Sbjct  4   KLWNICAGPLCVLSKPGEKVYYFPQGHIELIENSTRDELD  43
+
+
+>tr|A0A654F0L7|A0A654F0L7_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AN1_LOCUS6831 PE=3 SV=1
+Length=596
+
+ Score = 42.7 bits (99),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  20  RVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSE  53
+           R ++  +W ACAG  V +P + SRV YFPQGH E
+Sbjct  14  REVDPTIWRACAGASVQIPVLHSRVYYFPQGHVE  47
+
+
+>tr|A0A1P8AU56|A0A1P8AU56_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=ARF17 PE=1 SV=1
+Length=596
+
+ Score = 42.7 bits (99),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  20  RVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSE  53
+           R ++  +W ACAG  V +P + SRV YFPQGH E
+Sbjct  14  REVDPTIWRACAGASVQIPVLHSRVYYFPQGHVE  47
+
+
+>tr|A0A5S9WV95|A0A5S9WV95_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=C24_LOCUS6716 PE=3 SV=1
+Length=600
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  20  RVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSE  53
+           R ++  +W ACAG  V +P + SRV YFPQGH E
+Sbjct  14  REVDPTIWRACAGASVQIPVLHSRVYYFPQGHVE  47
+
+
+>tr|A0A178WP26|A0A178WP26_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g72430 PE=3 SV=1
+Length=596
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  20  RVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSE  53
+           R ++  +W ACAG  V +P + SRV YFPQGH E
+Sbjct  14  REVDPTIWRACAGASVQIPVLHSRVYYFPQGHVE  47
+
+
+>sp|Q84WU6|ARFQ_ARATH Auxin response factor 17 OS=Arabidopsis 
+thaliana OX=3702 GN=ARF17 PE=2 SV=1
+Length=585
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  20  RVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSE  53
+           R ++  +W ACAG  V +P + SRV YFPQGH E
+Sbjct  14  REVDPTIWRACAGASVQIPVLHSRVYYFPQGHVE  47
+
+
+>tr|A0A7G2E3R5|A0A7G2E3R5_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS5778 PE=3 SV=1
+Length=585
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  20  RVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSE  53
+           R ++  +W ACAG  V +P + SRV YFPQGH E
+Sbjct  14  REVDPTIWRACAGASVQIPVLHSRVYYFPQGHVE  47
+
+
+>tr|A0A178WR63|A0A178WR63_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AXX17_At1g72430 PE=3 SV=1
+Length=585
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  20  RVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSE  53
+           R ++  +W ACAG  V +P + SRV YFPQGH E
+Sbjct  14  REVDPTIWRACAGASVQIPVLHSRVYYFPQGHVE  47
+
+
+>tr|A0A7G2E1X0|A0A7G2E1X0_ARATH Auxin response factor OS=Arabidopsis 
+thaliana OX=3702 GN=AT9943_LOCUS3159 PE=3 SV=1
+Length=342
+
+ Score = 34.7 bits (78),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 21/64 (33%), Positives = 30/64 (47%), Gaps = 14/64 (22%)
+
+Query  9   NPQPHE---VTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDA  65
+           N QP     + G K  +  +LW  CAGPL  +P +            E+V AST +E++ 
+Sbjct  8   NAQPELSGIIDGSKSYMYEQLWKLCAGPLCDIPKL-----------EEKVEASTREELNE  56
+
+Query  66  HIPN  69
+             PN
+Sbjct  57  LQPN  60
+
+
+>tr|Q9SLN3|Q9SLN3_ARATH Putative WD-40 repeat protein (Fragment) 
+OS=Arabidopsis thaliana OX=3702 GN=At2g47410 PE=4 SV=2
+Length=1269
+
+ Score = 27.7 bits (60),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37   LPPVGSRVVYFPQGHSE  53
+            +P +G  V+YF QGH E
+Sbjct  982  IPQLGDEVIYFKQGHQE  998
+
+
+>tr|A0A384KA14|A0A384KA14_ARATH Bromo domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=AXX17_At2g45170 PE=4 SV=1
+Length=1530
+
+ Score = 27.3 bits (59),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1243  IPQLGDEVIYFKQGHQE  1259
+
+
+>tr|A0A178W3E8|A0A178W3E8_ARATH WD40 domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=At2g47410 PE=1 SV=1
+Length=1530
+
+ Score = 27.3 bits (59),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1243  IPQLGDEVIYFKQGHQE  1259
+
+
+>tr|A0A7G2EEP7|A0A7G2EEP7_ARATH (thale cress) hypothetical protein 
+OS=Arabidopsis thaliana OX=3702 GN=AT9943_LOCUS9695 PE=4 
+SV=1
+Length=1516
+
+ Score = 27.3 bits (59),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1229  IPQLGDEVIYFKQGHQE  1245
+
+
+>tr|A0A7G2EHM1|A0A7G2EHM1_ARATH (thale cress) hypothetical protein 
+OS=Arabidopsis thaliana OX=3702 GN=AT9943_LOCUS9695 PE=4 
+SV=1
+Length=1517
+
+ Score = 27.3 bits (59),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1230  IPQLGDEVIYFKQGHQE  1246
+
+
+>tr|F4IL43|F4IL43_ARATH WD40 domain-containing protein OS=Arabidopsis 
+thaliana OX=3702 GN=At2g47410 PE=1 SV=1
+Length=1520
+
+ Score = 27.3 bits (59),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1233  IPQLGDEVIYFKQGHQE  1249
+
+
+>tr|A0A7G2EEE3|A0A7G2EEE3_ARATH (thale cress) hypothetical protein 
+OS=Arabidopsis thaliana OX=3702 GN=AT9943_LOCUS9695 PE=4 
+SV=1
+Length=1507
+
+ Score = 27.3 bits (59),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1220  IPQLGDEVIYFKQGHQE  1236
+
+
+>tr|Q8L7M8|Q8L7M8_ARATH Putative WD-40 repeat protein OS=Arabidopsis 
+thaliana OX=3702 PE=2 SV=1
+Length=1519
+
+ Score = 27.3 bits (59),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1233  IPQLGDEVIYFKQGHQE  1249
+
+
+>tr|F4IL44|F4IL44_ARATH WD40 domain-containing protein OS=Arabidopsis 
+thaliana OX=3702 GN=At2g47410 PE=1 SV=1
+Length=1519
+
+ Score = 27.3 bits (59),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1232  IPQLGDEVIYFKQGHQE  1248
+
+
+>tr|A0A5S9X7R9|A0A5S9X7R9_ARATH Bromo domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=At2g47410 PE=4 SV=1
+Length=1519
+
+ Score = 27.3 bits (59),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1232  IPQLGDEVIYFKQGHQE  1248
+
+
+>tr|A0A654F2R3|A0A654F2R3_ARATH Bromo domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=AN1_LOCUS11271 PE=4 SV=1
+Length=1520
+
+ Score = 27.3 bits (59),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1233  IPQLGDEVIYFKQGHQE  1249
+
+
+>tr|Q9FGX4|Q9FGX4_ARATH WD-40 repeat protein-like OS=Arabidopsis 
+thaliana OX=3702 PE=4 SV=1
+Length=1576
+
+ Score = 26.6 bits (57),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSEQVAASTNKEV  63
+             +P +G  V Y  QGH E +  S+ +EV
+Sbjct  1288  IPQMGDEVAYLRQGHQEYLNFSSLREV  1314
+
+
+>tr|A0A7G2FHY8|A0A7G2FHY8_ARATH (thale cress) hypothetical protein 
+OS=Arabidopsis thaliana OX=3702 GN=AT9943_LOCUS21723 PE=4 
+SV=1
+Length=1661
+
+ Score = 26.6 bits (57),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSEQVAASTNKEV  63
+             +P +G  V Y  QGH E +  S+ +EV
+Sbjct  1373  IPQMGDEVAYLRQGHQEYLNFSSLREV  1399
+
+
+>tr|A0A654G9G5|A0A654G9G5_ARATH Bromo domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=At5g49430 PE=4 SV=1
+Length=1677
+
+ Score = 26.6 bits (57),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSEQVAASTNKEV  63
+             +P +G  V Y  QGH E +  S+ +EV
+Sbjct  1389  IPQMGDEVAYLRQGHQEYLNFSSLREV  1415
+
+
+>tr|A0A178UHT9|A0A178UHT9_ARATH Bromo domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=AXX17_At5g48200 PE=4 SV=1
+Length=1677
+
+ Score = 26.6 bits (57),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSEQVAASTNKEV  63
+             +P +G  V Y  QGH E +  S+ +EV
+Sbjct  1389  IPQMGDEVAYLRQGHQEYLNFSSLREV  1415
+
+
+>tr|F4K639|F4K639_ARATH WD40/YVTN repeat and Bromo-WDR9-I-like 
+domain-containing protein OS=Arabidopsis thaliana OX=3702 GN=At5g49430 
+PE=1 SV=1
+Length=1677
+
+ Score = 26.6 bits (57),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSEQVAASTNKEV  63
+             +P +G  V Y  QGH E +  S+ +EV
+Sbjct  1389  IPQMGDEVAYLRQGHQEYLNFSSLREV  1415
+
+
+>tr|A0A5S9YCR6|A0A5S9YCR6_ARATH Bromo domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=C24_LOCUS25021 PE=4 SV=1
+Length=1712
+
+ Score = 26.6 bits (57),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSEQVAASTNKEV  63
+             +P +G  V Y  QGH E +  S+ +EV
+Sbjct  1424  IPQMGDEVAYLRQGHQEYLNFSSLREV  1450
+
+
+>tr|A0A1P8AZR4|A0A1P8AZR4_ARATH WD40 domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=At2g47410 PE=1 SV=1
+Length=1338
+
+ Score = 26.6 bits (57),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1051  IPQLGDEVIYFKQGHQE  1067
+
+
+>tr|A0A384L4J4|A0A384L4J4_ARATH Bromo domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=AXX17_At2g45170 PE=4 SV=1
+Length=1348
+
+ Score = 26.6 bits (57),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1061  IPQLGDEVIYFKQGHQE  1077
+
+
+>tr|A0A1P8AZS1|A0A1P8AZS1_ARATH WD40 domain-containing protein 
+OS=Arabidopsis thaliana OX=3702 GN=At2g47410 PE=1 SV=1
+Length=1348
+
+ Score = 26.6 bits (57),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  37    LPPVGSRVVYFPQGHSE  53
+             +P +G  V+YF QGH E
+Sbjct  1061  IPQLGDEVIYFKQGHQE  1077
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.131    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1422508192
+
+
+  Database: uniprot_Atha.fasta
+    Posted date:  Feb 14, 2026  2:24 PM
+  Number of letters in database: 57,483,740
+  Number of sequences in database:  136,324
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
