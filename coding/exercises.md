@@ -135,31 +135,15 @@ The Child Terms table lists seven direct descendants of the photosynthesis term:
 
 
 ### 4.Search for the GO annotation terms of the following protein A0A068LKP4,A0A097PR28, A0A059Q6N8? What do you observe?
+Arabidopsis thaliana: 
+<img width="1169" height="175" alt="image" src="https://github.com/user-attachments/assets/0d2158e9-049c-46fd-b9c5-b5ab1931a7ad" />
 
+Prunus persica
 
-<img width="727" height="88" alt="{3C67776D-934C-40A4-8ED2-80BAF105F782}" src="https://github.com/user-attachments/assets/10c3a9cf-7e1f-47e8-9706-c3ea65b2d4ba" />
+<img width="1811" height="804" alt="image" src="https://github.com/user-attachments/assets/d42bf9c7-127d-482a-b65a-0343a46d4c2f" />
 
-
-
-
-
-
-By comparing the annotations of these three proteins, several important points become clear:
-
-#### 1. Functional Conservation Across Species
-Even though Arabidopsis (a model weed), Prunus (a fruit tree), and Zea (a cereal crop) are separated by large evolutionary distances, their corresponding proteins carry almost identical functional annotations. This strongly supports the idea that they are true orthologs—genes that have retained the same biological role, in this case auxin‑related signaling and transcriptional regulation, across very different plant lineages.
-
-#### 2. Evidence Code Patterns (IEA)
-Looking at the “Evidence” column, you’ll notice that most annotations for peach and maize rely on the IEA code (Inferred from Electronic Annotation). This means their functions are predicted computationally based on similarity to experimentally validated proteins—typically those from well‑studied model species—rather than on direct experimental work in these crops.
-
-#### 3. Consistent GO Namespace Coverage
-All three proteins map to the same three Gene Ontology categories:
-
-Molecular Function: DNA binding, consistent with their role as transcription factors.
-
-Biological Process: Auxin response and transcriptional regulation.
-
-Cellular Component: Localized to the nucleus, where transcription factors operate.
+Zea mays subsp. Mays 
+<img width="1820" height="623" alt="image" src="https://github.com/user-attachments/assets/438ca3c4-0263-44d8-a82b-9bb162bb325f" />
 
 
 ### 5. How many gene products are involved in leaf development? Give the GO ID corresponding to this term.
