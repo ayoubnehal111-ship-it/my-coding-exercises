@@ -24,8 +24,7 @@ For example :
 - **blastx hits:** 95
 - **Observation:** `blastp` found more hits in this specific search. This is expected as `blastx` must translate the DNA query into 6 frames, which can affect the alignment sensitivity.
 ## Exe 5: PSI-BLAST Profile Analysis
-The PSI-BLAST output generates a Position-Specific Scoring Matrix (PSSM) that serves as a functional "fingerprint" for the ARF6 protein family. Each row represents a sequence position where high positive scores, such as the 8 for Histidine at position 13, indicate amino acids that are highly conserved and likely essential for biological function. The scoring is adjusted over 3 iterations against your database of 136,324 sequences to identify distant homologs that standard BLAST might overlook. Statistical parameters like Lambda and K at the bottom are used to calculate the E-value, ensuring that matches like your 100% identity hit are statistically significant.
-
+The profile.out file contains the Position-Specific Scoring Matrix (PSSM), a mathematical "fingerprint" that identifies the evolutionary patterns of the ARF6 protein family. Each row represents a sequence position where positive scores, like the 8 for Histidine at position 13, highlight highly conserved amino acids essential for biological function. The matrix uses log-odds scores to show which residues are favored or penalized at each spot across the 136,324 sequences in your database. Because your search yielded a 100% identity match, the scores are currently very specific to your query sequence. Finally, statistical parameters like Lambda and K at the bottom allow BLAST to calculate the statistical significance of your matches, such as your extremely low 4e-48 E-value. 
 <img width="742" height="378" alt="{0F2B72E1-291F-4603-BC5A-CB212DCAD982}" src="https://github.com/user-attachments/assets/dbd81c33-df94-43be-9b53-62b11faf1567" />
 
 
