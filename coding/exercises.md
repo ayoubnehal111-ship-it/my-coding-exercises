@@ -12,7 +12,12 @@ I redirected the BLAST results into separate files:
 - `test.fna.blast` (Transcript search)
 
 ## Exe3: Default Alignment Format
-The default format is **Pairwise** (Option 0). It shows the amino acid sequences of the Query and Subject aligned on top of each other.
+The default format is **Pairwise** (Option 0). It shows the amino acid sequences of the Query and Subject aligned on top of each other
+
+For example : 
+
+ <img width="862" height="357" alt="image" src="https://github.com/user-attachments/assets/16468ddd-de10-4535-8c1d-63f3055c96d4" />
+
 
 ## Exe4: Differences in Results
 - **blastp hits:** 100
