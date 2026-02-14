@@ -70,9 +70,7 @@ The best taxonomy level found is Brassicales because we get an  e-value of 0 and
 
 
 
-
-
-The BLAST results confirm that the ARF6 protein is highly conserved, showing 100% identity and a highly significant E-value of $2.47e-58$ across both protein and translated nucleotide searches. While BLASTP provided a precise 2-line targeted match, BLASTX expanded the search to over 157 hits, revealing a broad family of homologs across multiple reading frames. Biologically, the GO term associations for water deprivation response (GO:0009414) and root hair development highlight this gene's critical role in abiotic stress tolerance. These findings validate ARF6 as a primary candidate for your tomato breeding research, as the orthology data proves its function is preserved across the Brassicaceae and related plant families. Ultimately, the consistency between these searches ensures high data integrity for the subsequent Hidden Markov Model generation and genomic mapping.
+The functional annotation of ARF6 confirms its critical role in abiotic stress response, specifically through GO:0009414 for water deprivation response and GO:0035618 for root hair development. The eggNOG orthology data demonstrates that this gene is exceptionally conserved across the Brassicales order, yielding an e-value of 0 and a high score of 1692.6. For your plant breeding research, these results provide a strong genetic basis for selecting ARF6 to improve drought tolerance and nutrient uptake efficiency. The presence of orthologs in diverse species like Carica papaya and Brassica oleracea proves that this regulatory mechanism is evolutionarily stable and functional across diverse plant families. Ultimately, these findings bridge genomic theory with practical breeding applications, validating the protein's potential for developing climate-resilient crop varieties.
 ## Exe 9: Annotating function with Gene Ontology (GO) terms
 ### 1.Search for the GO terms and the functional categories of the following GO IDs GO:0009414, GO:0035618, GO:0016491. Tip : For multiple search GO IDs needs to be separated by a space.
 
