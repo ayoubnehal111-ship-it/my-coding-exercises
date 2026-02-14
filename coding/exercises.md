@@ -24,65 +24,9 @@ For example :
 - **blastx hits:** 95
 - **Observation:** `blastp` found more hits in this specific search. This is expected as `blastx` must translate the DNA query into 6 frames, which can affect the alignment sensitivity.
 ## Exe 5: PSI-BLAST Profile Analysis
-The profile.out file contains the Position-Specific Scoring Matrix (PSSM), a mathematical "fingerprint" that identifies the evolutionary patterns of the ARF6 protein family. Each row represents a sequence position where positive scores, like the 8 for Histidine at position 13, highlight highly conserved amino acids essential for biological function. The matrix uses log-odds scores to show which residues are favored or penalized at each spot across the 136,324 sequences in your database. Because your search yielded a 100% identity match, the scores are currently very specific to your query sequence. Finally, statistical parameters like Lambda and K at the bottom allow BLAST to calculate the statistical significance of your matches, such as your extremely low 4e-48 E-value. 
-<img width="742" height="378" alt="{0F2B72E1-291F-4603-BC5A-CB212DCAD982}" src="https://github.com/user-attachments/assets/dbd81c33-df94-43be-9b53-62b11faf1567" />
+The profile.out file contains the Position-Specific Scoring Matrix (PSSM), which serves as a detailed mathematical "fingerprint" of the ARF6 protein family. The first section provides log-odds scores for all 20 amino acids at each sequence position, where high positive values—like the 10 for Tryptophan at position 27—highlight residues critical for biological function. These scores are refined over 3 iterations of PSI-BLAST, allowing the search to become sensitive enough to detect distant homologs that standard BLAST would miss. The middle columns display weighted observed percentages, showing how frequently specific amino acids appeared across the identified sequences during the search. On the far right, the "Information Per Position" column quantifies the unique biological signature of each residue, with higher values indicating more informative sites. Statistical parameters at the bottom, such as Lambda (0.2670) and K (0.0397), are constants used to calculate the accuracy and significance of your E-values. For your plant breeding research at CIHEAM Zaragoza, this profile is a powerful tool to identify conserved domains in tomatoes or other species despite primary sequence differences. By capturing these evolutionary patterns, the PSSM provides a much deeper understanding of protein conservation than a simple pairwise alignment
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="735" height="354" alt="{5E744658-0DCD-4D0D-968C-1BA84549AF01}" src="https://github.com/user-attachments/assets/35ff8883-efa6-47eb-95ea-07957d246e7c" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="751" height="390" alt="{6C518B7E-1116-4F72-9691-2345681CE78C}" src="https://github.com/user-attachments/assets/93a9d850-8da0-45b3-a2ce-ffe5b07759ca" />
+<img width="1436" height="1952" alt="image" src="https://github.com/user-attachments/assets/a978f92f-95a8-47fa-b126-8b1ab7ba29fd" />
 
 
 
