@@ -56,6 +56,23 @@ The GO of this protein are :
 The best taxonomy level found is Brassicales because we get an  e-value of 0 and a score of 
 1692.6. That gives us the orthologs below:
 <img width="880" height="469" alt="image" src="https://github.com/user-attachments/assets/7790e13e-c13e-47a9-b09d-f4ccd459674b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The BLAST results confirm that the ARF6 protein is highly conserved, showing 100% identity and a highly significant E-value of $2.47e-58$ across both protein and translated nucleotide searches. While BLASTP provided a precise 2-line targeted match, BLASTX expanded the search to over 157 hits, revealing a broad family of homologs across multiple reading frames. Biologically, the GO term associations for water deprivation response (GO:0009414) and root hair development highlight this gene's critical role in abiotic stress tolerance. These findings validate ARF6 as a primary candidate for your tomato breeding research, as the orthology data proves its function is preserved across the Brassicaceae and related plant families. Ultimately, the consistency between these searches ensures high data integrity for the subsequent Hidden Markov Model generation and genomic mapping.
 ## Exe 9: Annotating function with Gene Ontology (GO) terms
 ### 1.Search for the GO terms and the functional categories of the following GO IDs GO:0009414, GO:0035618, GO:0016491. Tip : For multiple search GO IDs needs to be separated by a space.
 
